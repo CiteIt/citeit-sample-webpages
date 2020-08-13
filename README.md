@@ -1,6 +1,6 @@
 # citeit-sample-webpages
 
-These are websites that have been modified to support CiteIt.net's Contextual Citations
+These are websites that have been modified to support [CiteIt.net's Contextual Citations](https://www.citeit.net/sample-code/examples.html)
 
 
 * Wikipedia
