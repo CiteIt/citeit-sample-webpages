@@ -39,6 +39,70 @@ img.emoji {
 <link rel="canonical" href="7097.html" />
 <link rel='shortlink' href='https://www.interfluidity.com/?p=7097' />
 <link rel="alternate" type="application/json+oembed" href="https://www.interfluidity.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.interfluidity.com%2Fv2%2F7097.html" />
+
+
+
+  <!-- ############################### Begin: CiteIt Dependencies ##################################
+      - jQuery: manipulate Dom: 
+      - query api.CiteIt.net
+      - download JSON to hidden citeit_container div
+      - add arrows and popup links to q tags and blockquotes
+
+  ------ 1) jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 2) jQuery Migrate: Used to migrate jQuery: https://github.com/jquery/jquery-migrate -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" 
+	integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" 
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 3) Generate q-tag Popup -->
+  <script   
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 4) Calculate JSON Hash values using sha256 library --->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/forge-sha256/build/forge-sha256.min.js' defer></script>
+
+
+  <!-- 5) jsVideoUrlParser: Detect Domain: Determine if an Embed code can be use: YouTube, Vimeo, Soundcloud -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jsVideoUrlParser/dist/jsVideoUrlParser.min.js' defer></script>
+
+  <!--CSS Styles: CiteIt & JQuery Popup Window -->
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
+
+  <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
+
+  <!--Change q-tag style to match Wikipedia -->
+  <!--style>
+
+    q, q a, span.q {
+	text-decoration: none;
+	border-bottom: 0px dotted;
+	color: #0ebfe9;	
+    }
+    q a:visited {
+	color: #0ebfe9;	
+    }
+
+    div.quote_arrows a, q, q a, span.q, a.citeit_source_domain {
+	 color: #0ebfe9; 
+    }
+
+  </style-->
+
+
+  <!-- ############################### End: CiteIt.net Dependencies #######################################-->
+
+
 </head>
 <body>
 <div id="page">
@@ -76,7 +140,7 @@ img.emoji {
 
 <p>Still, there remains a lot of overlap, and an important component of the debate is whether MMT or more traditional views will be better politically at delivering the goods that many of us can agree we want. MMT economist <a href="https://jacobinmag.com/2019/02/mmt-modern-monetary-theory-doug-henwood-overton-window">Pavlina Tcherneva&#8217;s riposte</a> to MMT-skeptical <a href="https://www.jacobinmag.com/2019/02/modern-monetary-theory-isnt-helping">Doug Henwood</a> is extraordinary in this regard:</p>
 
-<blockquote>
+<blockquote cite="https://jacobinmag.com/2019/02/mmt-modern-monetary-theory-doug-henwood-overton-window">
 <p>Henwood does not acknowledge that one of the most effective ways of engaging in this struggle is to render the wealthy obsolete &mdash; as in, we will stop pretending that we need them to pay for the good society. In a world with a sovereign currency and modern monetary and fiscal institutions, we never really did, and we sure don’t now. And the public needs to know it. That’s the MMT message.</p>
 
 <p>For the record MMT, as Henwood acknowledges, has always argued for taxing the wealthy to address the problems of inequality and political power, but we also offer a different kind of empowerment &mdash; one that comes with lifting the veil of money.</p>
@@ -88,7 +152,7 @@ img.emoji {
 
 <p>And here is MMTer <a href="http://neweconomicperspectives.org/2019/02/response-to-doug-henwoods-trolling-in-jacobin.html">Randy Wray</a>:</p>
 
-<blockquote>
+<blockquote cite="http://neweconomicperspectives.org/2019/02/response-to-doug-henwoods-trolling-in-jacobin.html">
 <p>Henwood wants us to believe that Government needs inequality. We’ve got to cater to the rich. They get to veto our progressive policies. If there weren’t rich folk, we’d never be able to afford a New Deal. We only get the policies they are willing to fund. If we actually did tax away their riches, government would go broke.</p>
 
 <p>As [MMT economist Stephanie] Kelton puts it, people like Henwood think money grows on rich people.</p>
@@ -102,7 +166,7 @@ img.emoji {
 
 <p>Henwood replies <a href="https://twitter.com/DougHenwood/status/1100403753944010752">by</a> <a href="https://twitter.com/DougHenwood/status/1100404317654110210">Twitter</a>:</p>
 
-<blockquote>
+<blockquote cite="https://twitter.com/DougHenwood/status/1100404317654110210">
 <p>Me: tax the rich to feed kids and save the planet.</p>
 
 <p>Randy Wray: &#8220;What will we do with the tax revenue? Burn it. Uncle Sam doesn’t need your money.&#8221;</p>
@@ -120,13 +184,13 @@ img.emoji {
 
 <p>So, which is better as <i>politics</i>, the pop-MMT &#8220;Fuck the rich, yes we can, just do it!&#8221; or Henwood&#8217;s &#8220;Melt Lamborghinis, make mag-levs!&#8221;? I don&#8217;t know. But I think it&#8217;s an important question. Even if you think MMT economics is total bullshit (to be clear, I don&#8217;t), it may still, as <a href="https://crooked.com/articles/whats-missing-from-the-most-important-debate-on-the-left/">Brian Beutler argues</a>, be</p>
 
-<blockquote>
+<blockquote cite="https://crooked.com/articles/whats-missing-from-the-most-important-debate-on-the-left/">
 <p><i>useful</i> because it’s a specific, articulable way of describing national finance that provides Democrats an answer to starve the beast&#8230; Democrats must either come to grips with the nature of their opposition, and prepare themselves—whether it’s through embracing MMT or just pure political grit—to use power on a level playing field with Republicans, or leave us stuck on the seesaw until, eventually, Republicans win. The left is either going to beat conservatives at the game of chicken they have forced us into, or it is not.</p>
 </blockquote>
 
 <p>Tcherneva, the MMT economist, provocatively asks on <a href="https://twitter.com/ptcherneva/status/1100769026765189128">Twitter</a>:</p>
 
-<blockquote>
+<blockquote cite="https://twitter.com/ptcherneva/status/1100769026765189128">
 <p>Suppose a very progressive govt says &#8220;Yes, #MMT is right, we have all the financial resources we need&#8221; and starts working on implementing a #GreenNewDeal, #JobGuarantee, #M4A etc etc. What&#8217;s the worst that could possibly happen from the POV of all fervent Left MMT critics?</p>
 </blockquote>
 
@@ -923,5 +987,18 @@ question &#8211; why do you think think &#8220;&#8230; and showed &#8211; to a c
 </div>
 </div>
 		<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+
+
+<!-- ################ Begin: CiteIt.net Dependencies ############# -->
+  <div id='citeit_container'><!-- CiteIt-quote-context.js injects data returned from lookup in this hidden div --></div>
+  <script>
+	// Call CiteIt.net plugin on all q-tags and blockquotes:
+	$( document ).ready(function() {
+		jQuery('q, blockquote').quoteContext();
+	});
+  </script>
+<!-- ############### End: CiteIt.net Dependencies ############## -->
+
+
 </body>
 </html>
