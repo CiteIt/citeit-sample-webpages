@@ -73,18 +73,32 @@
 
   <!--Change q-tag style to match Wikipedia -->
   <style>
+	q {
+    		quotes: "" "" "" "";
+	}
 
     q, q a, span.q {
+	color: #333;
 	text-decoration: none;
 	border-bottom: 0px dotted;
-	color: #0ebfe9;	
+	background-color: #d6e8ec;
+	
     }
     q a:visited {
-	color: #0ebfe9;	
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: none;
     }
 
-    div.quote_arrows a, q, q a, span.q, a.citeit_source_domain {
-	 color: #0ebfe9; 
+    q a:hover {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: #0645ad underline;
+    }
+
+    div.quote_arrows a,  a.citeit_source_domain {
+	color: #0ebfe9;
+	/* background-color: #e4ebf5;  */
     }
 
   </style>
@@ -260,7 +274,7 @@ Of which this noonday's the beginning hour.
 <p>Immediately after reciting the oath of office, President Kennedy turned to address the crowd gathered at the Capitol. His 1366-word<sup id="cite_ref-31" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-31">&#91;31&#93;</a></sup> inaugural address, the first delivered to a televised audience in color,<sup id="cite_ref-Smithsonian_Inaugural_Firsts_14-2" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-Smithsonian_Inaugural_Firsts-14">&#91;14&#93;</a></sup> is considered among the best presidential inaugural speeches in American history.<sup id="cite_ref-32" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-32">&#91;32&#93;</a></sup><sup id="cite_ref-Two_authors_ask_not_33-0" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-Two_authors_ask_not-33">&#91;33&#93;</a></sup><sup id="cite_ref-34" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-34">&#91;34&#93;</a></sup>
 </p->
 <style data-mw-deduplicate="TemplateStyles:r960796168">.mw-parser-output .templatequote{overflow:hidden;margin:1em 0;padding:0 40px}.mw-parser-output .templatequote .templatequotecite{line-height:1.5em;text-align:left;padding-left:1.6em;margin-top:0}</style><blockquote class="templatequote"-><!--CiteIt Edit: display not yet working well:  cite="https://avalon.law.yale.edu/20th_century/kennedy.asp"--><p>Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans--born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage--and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.<!--CiteIt Edit: Remove Footnote for better textual match: sup id="cite_ref-JFKinaugaddress_35-0" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-JFKinaugaddress-35">&#91;35&#93;</a></sup--></p></blockquote>
-<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r960796168"/><blockquote class="templatequote" <!--CiteIt Edit: display not yet working well: cite="https://avalon.law.yale.edu/20th_century/kennedy.asp"--><!-- CiteIt Edit: switch URL to better textual transcript: https://www.jfklibrary.org/learn/about-jfk/historic-speeches/inaugural-address--><p>And so, my fellow Americans: ask not what your country can do for you—ask what you can do for your country<!--CiteIt Edit: hide footnote for better text matching ..<sup id="cite_ref-JFKinaugaddress_35-1" class="reference"><a href="#cite_note-JFKinaugaddress-35">&#91;35&#93;</a></sup--></p></blockquote>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r960796168"/><blockquote class="templatequote" <!-- CiteIt Edit: display not yet working well: --><p>And so, my fellow Americans: ask not what your country can do for you—ask what you can do for your country<!--CiteIt Edit: hide footnote for better text matching ..<sup id="cite_ref-JFKinaugaddress_35-1" class="reference"><a href="#cite_note-JFKinaugaddress-35">&#91;35&#93;</a></sup--></p></blockquote>
 <h3><span class="mw-headline" id="Drafting">Drafting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Inauguration_of_John_F._Kennedy&amp;action=edit&amp;section=6" title="Edit section: Drafting">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
 <div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:JFKInauguralInscriptionGravesite.jpg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/JFKInauguralInscriptionGravesite.jpg/220px-JFKInauguralInscriptionGravesite.jpg" decoding="async" width="220" height="147" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/JFKInauguralInscriptionGravesite.jpg/330px-JFKInauguralInscriptionGravesite.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/JFKInauguralInscriptionGravesite.jpg/440px-JFKInauguralInscriptionGravesite.jpg 2x" data-file-width="2304" data-file-height="1536" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:JFKInauguralInscriptionGravesite.jpg" class="internal" title="Enlarge"></a></div>The most famous passage from the inaugural address is etched in stone at <a href="https://en.wikipedia.org/wiki/John_F._Kennedy_Eternal_Flame" title="John F. Kennedy Eternal Flame">Kennedy's gravesite</a> in <a href="https://en.wikipedia.org/wiki/Arlington_National_Cemetery" title="Arlington National Cemetery">Arlington National Cemetery</a>, with the <a href="https://en.wikipedia.org/wiki/Lincoln_Memorial" title="Lincoln Memorial">Lincoln Memorial</a> and <a href="https://en.wikipedia.org/wiki/Washington_Monument" title="Washington Monument">Washington Monument</a> in the background.</div></div></div><p> The speech was crafted by Kennedy and his speech writer <a href="https://en.wikipedia.org/wiki/Ted_Sorensen" title="Ted Sorensen">Ted Sorensen</a>. Kennedy had Sorensen study President <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln" title="Abraham Lincoln">Abraham Lincoln</a>'s <a href="https://en.wikipedia.org/wiki/Gettysburg_Address" title="Gettysburg Address">Gettysburg Address</a> as well as other inaugural speeches.<sup id="cite_ref-JFK_36-0" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-JFK-36">&#91;36&#93;</a></sup> Kennedy began collecting thoughts and ideas for his inauguration speech in late November 1960. He took suggestions from various friends, aides and counselors, including suggestions from clergymen for biblical quotations. Kennedy then made several drafts using his own thoughts and some of those suggestions.<sup id="cite_ref-NARA_37-0" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-NARA-37">&#91;37&#93;</a></sup> Kennedy included in his speech several suggestions made by Harvard economist <a href="https://en.wikipedia.org/wiki/John_Kenneth_Galbraith" title="John Kenneth Galbraith">John Kenneth Galbraith</a> and by the former Democratic presidential candidate <a href="https://en.wikipedia.org/wiki/Adlai_Stevenson_II" title="Adlai Stevenson II">Adlai Stevenson II</a>. Kennedy's line "Let us never negotiate out of fear. But let us never fear to negotiate." is nearly identical to Galbraith's suggestion "We shall never negotiate out of fear. But we shall never fear to negotiate." Stevenson's suggestion "if the free way of life doesn't help the many poor of this world it will never save the few rich." was the basis for Kennedy's line "If a free society cannot help the many who are poor, it cannot save the few who are rich."<sup id="cite_ref-38" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-38">&#91;38&#93;</a></sup>
 </p><h3><span class="mw-headline" id="Main_ideas_of_the_speech">Main ideas of the speech</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Inauguration_of_John_F._Kennedy&amp;action=edit&amp;section=7" title="Edit section: Main ideas of the speech">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
