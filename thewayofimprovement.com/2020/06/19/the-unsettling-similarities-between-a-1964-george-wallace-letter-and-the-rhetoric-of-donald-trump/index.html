@@ -333,7 +333,10 @@ var related_posts_js_options = {"post_heading":"h4"};
 		</script>
 		<script type="text/javascript">
 		!function(t){var n={};function e(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return t[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}e.m=t,e.c=n,e.d=function(t,n,r){e.o(t,n)||Object.defineProperty(t,n,{enumerable:!0,get:r})},e.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},e.t=function(t,n){if(1&n&&(t=e(t)),8&n)return t;if(4&n&&"object"==typeof t&&t&&t.__esModule)return t;var r=Object.create(null);if(e.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:t}),2&n&&"string"!=typeof t)for(var o in t)e.d(r,o,function(n){return t[n]}.bind(null,o));return r},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,n){return Object.prototype.hasOwnProperty.call(t,n)},e.p="https://c0.pubmine.com/2.6.01584004761084/",e(e.s=184)}({0:function(t,n){t.exports=function(t,n,e){return n in t?Object.defineProperty(t,n,{value:e,enumerable:!0,configurable:!0,writable:!0}):t[n]=e,t}},1:function(t,n){t.exports=function(t,n){if(!(t instanceof n))throw new TypeError("Cannot call a class as a function")}},10:function(t,n,e){"use strict";var r=e(50),o=e(17),i=e(23);t.exports=function(t,n,e){if(!r(t))return e;if(!o(n))return e;try{var u=n.split(".").reduce((function(t,n){return t[n]}),t);return i(u)?e:u}catch(t){return e}}},12:function(t,n){function e(n){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?t.exports=e=function(t){return typeof t}:t.exports=e=function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},e(n)}t.exports=e},14:function(t,n,e){"use strict";t.exports=function(t){return"function"==typeof t}},15:function(t,n,e){"use strict";t.exports=function(){}},17:function(t,n,e){"use strict";t.exports=function(t){return"string"==typeof t}},184:function(t,n,e){"use strict";e.r(n);var r=e(0),o=e.n(r),i=e(12),u=e.n(i),c=e(32),f=e.n(c),s=e(15),a=e.n(s),p=e(37),l=e.n(p),d=e(52),v=e(53),m=e(28);function y(t,n){var e=Object.keys(t);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(t);n&&(r=r.filter((function(n){return Object.getOwnPropertyDescriptor(t,n).enumerable}))),e.push.apply(e,r)}return e}function b(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n={};"object"===u()(window.__ATA_PP)&&null!==window.__ATA_PP&&(n=window.__ATA_PP);var e=function(t){for(var n=1;n<arguments.length;n++){var e=null!=arguments[n]?arguments[n]:{};n%2?y(Object(e),!0).forEach((function(n){o()(t,n,e[n])})):Object.getOwnPropertyDescriptors?Object.defineProperties(t,Object.getOwnPropertyDescriptors(e)):y(Object(e)).forEach((function(n){Object.defineProperty(t,n,Object.getOwnPropertyDescriptor(e,n))}))}return t}({r:(new Date).getTime()},n,{},Object(d.a)(t),{ref:window.top!==window?document.referrer:window.location.href,us_privacy:Object(v.a)()}),r=l()("//s.pubmine.com/mhead.js",e);f()(r,a.a)}Object(m.b)()?Object(m.a)().then(b,b):b()},2:function(t,n){function e(t,n){for(var e=0;e<n.length;e++){var r=n[e];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,r.key,r)}}t.exports=function(t,n,r){return n&&e(t.prototype,n),r&&e(t,r),t}},21:function(t,n,e){"use strict";t.exports=function(t){return"string"==typeof t&&t.length>0}},23:function(t,n,e){"use strict";t.exports=function(t){return void 0===t}},24:function(t,n,e){"use strict";t.exports=function(t,n){return t.indexOf(n)>-1}},28:function(t,n,e){"use strict";e.d(n,"a",(function(){return p})),e.d(n,"b",(function(){return l}));var r=e(38),o=e.n(r),i=e(10),u=e.n(i),c=e(14),f=e.n(c),s=e(4);function a(t){var n=Date.now();return function(t){return new o.a((function(n,e){var r;window.setTimeout((function(){clearTimeout(r),e&&e("cmp ping timeout")}),t),function t(){window.__cmp?window.__cmp("ping",null,(function(o,i){i&&o.cmpLoaded?n():i?r=window.setTimeout(t,50):e&&e("cmp ping returned error with data: ".concat(JSON.stringify(o)))})):e&&e("CMP is not defined")}()}))}(t).then((function(){var e=Date.now()-n,r=t-e;return new o.a((function(t,n){window.__cmp?(window.__cmp("getConsentData",null,(function(e,r){r?t(e):n&&n("cmp getConsentData returned error with data: ".concat(JSON.stringify(e)))})),setTimeout((function(){n&&n("cmp getConsentData timeout")}),r)):n&&n("CMP is not defined")}))}))}function p(){return a(arguments.length>0&&void 0!==arguments[0]?arguments[0]:500).catch((function(t){return s.a.error(t),"boolean"==typeof(n=u()(window,"__ATA_PP.gdpr_applies"))?{gdprApplies:n}:{};var n}))}function l(){return f()(window.__cmp)}},29:function(t,n,e){"use strict";t.exports=function(t,n){for(var e=0,r=t.length;e<r;e++){var o=t[e];if(n(o,e))return o}return null}},30:function(t,n,e){"use strict";var r=e(29),o=e(24);t.exports=function(t,n){void 0===n&&(n=document.cookie);var e=n.split("; "),i=r(e,(function(n){return o(n,t+"=")}));return i?i.split("=")[1]:""}},32:function(t,n,e){"use strict";var r=e(15),o=e(14);t.exports=function(t,n,e){var i,u,c=document.createElement("script"),f=n instanceof HTMLElement&&n;if(i=o(n)?n:o(e)?e:r,c.src=t,c.onload=function(){i(void 0)},c.onerror=function(){i("error")},f)u=f;else{var s=document.getElementsByTagName("head");u=s&&0!==s.length?s[0]:document.documentElement}u.appendChild(c)}},37:function(t,n,e){"use strict";var r=e(24),o=e(89);t.exports=function(t,n){var e=o(n);return 0===e.length?t:t+(r(t,"?")?"&":"?")+e}},38:function(t,n,e){"use strict";var r,o=e(51),i=e(14);!function(t){t.REJECTED="rejected",t.RESOLVED="resolved",t.PENDING="pending"}(r||(r={}));var u=function(){function t(t,n){var e=this;this.status=r.PENDING,this.emitter=new o,this.onFulfilled=function(t){e.status===r.PENDING&&(e.status=r.RESOLVED,e.emitter.emit(r.RESOLVED,[t]))},this.onRejected=function(t){e.status===r.PENDING&&(e.status=r.REJECTED,e.emitter.emit(r.REJECTED,[t]))};var i=function(){return t(e.onFulfilled,e.onRejected)};n?i():setTimeout(i,0)}return t.resolve=function(n){return new t((function(t){t(n)}))},t.reject=function(n){return new t((function(t,e){e(n)}))},t.prototype.then=function(n,e){var o=this;return new t((function(u,c){o.emitter.on(r.RESOLVED,(function(e){if(i(n)){var r=n(e);r instanceof t?r.then(u,c):u(r)}else u(e)})),o.emitter.on(r.REJECTED,(function(n){if(i(e)){var r=e(n);r instanceof t?r.then(u,c):u(r)}else c(n)}))}),!0)},t.prototype.catch=function(n){var e=this;return new t((function(o){i(n)&&e.emitter.on(r.REJECTED,(function(e){var r=n(e);r instanceof t?r.then(o):o(r)})),e.emitter.on(r.RESOLVED,o)}),!0)},t}();t.exports=u},4:function(t,n,e){"use strict";var r=e(1),o=e.n(r),i=e(2),u=e.n(i),c=e(0),f=e.n(c),s=function(){function t(){o()(this,t)}return u()(t,null,[{key:"configure",value:function(n){t.config=n}},{key:"error",value:function(t){function n(n,e){return t.apply(this,arguments)}return n.toString=function(){return t.toString()},n}((function(t,n){this.config&&this.config.onError?this.config.onError(t,n):window.console&&console.log(t,n)}))}]),t}();f()(s,"config",void 0),n.a=s},50:function(t,n,e){"use strict";t.exports=function(t){var n=typeof t;return"object"===n&&null!=t||"function"===n}},51:function(t,n,e){"use strict";var r=function(){function t(){this.events={}}return t.prototype.on=function(t,n){if(this.events[t]){if(-1!==(e=this.events[t]).indexOf(n))throw new Error('This handler has already been subcribed for "'+t+'" event');e.push(n)}else{var e;(e=[]).push(n),this.events[t]=e}},t.prototype.off=function(t,n){var e=this.events[t],r=e.indexOf(n);-1!==r&&e.splice(r,1)},t.prototype.emit=function(t,n){void 0===n&&(n=[]);var e=this.events[t];e&&e.map((function(t){n?t.apply(void 0,n):t()}))},t}();t.exports=r},52:function(t,n,e){"use strict";e.d(n,"a",(function(){return i}));var r=e(17),o=e.n(r);function i(t){var n=t.gdprApplies,e=t.consentData;return{gdpr:"boolean"==typeof n?Number(n):void 0,gdpr_consent:o()(e)?e:void 0}}},53:function(t,n,e){"use strict";e.d(n,"a",(function(){return f}));var r=e(30),o=e.n(r),i=e(21),u=e.n(i),c="usprivacy";function f(){var t=o()(c);return u()(t)?t:null}},62:function(t,n,e){"use strict";t.exports=function(t){return null===t}},89:function(t,n,e){"use strict";var r=e(62),o=e(23);t.exports=function(t){var n=Object.keys(t),e=[];return n.forEach((function(n){var i=t[n];r(i)||o(i)||e.push(n+"="+encodeURIComponent(t[n]))})),e.join("&")}}});
-		</script><meta name="application-name" content="the way of improvement leads home" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="reflections at the intersection of American history, religion, politics, and academic life" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://thewayofimprovement.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/2bbf10fce30fb8f777db2a5cafb1a916?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="Earlier this week, presidential historian Michael Beschloss tweeted a 1964 letter written by segregationist Alabama governor George Wallace to a woman in Cedar Spring, Michigan: Here is the text of the entire letter: Dear Miss Martin: This will acknowledge and thank you for your letter of April 8, 1964, in which you request literature on&hellip;" />
+		</script><meta name="application-name" content="the way of improvement leads home" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="reflections at the intersection of American history, religion, politics, and academic life" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://thewayofimprovement.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/2bbf10fce30fb8f777db2a5cafb1a916?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="Earlier this week, presidential historian Michael Beschloss tweeted a 1964 letter written by segregationist Alabama governor George Wallace to a woman in Cedar Spring, Michigan: Here is the text of the entire letter: 
+
+<blockquote cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf">
+Dear Miss Martin: This will acknowledge and thank you for your letter of April 8, 1964, in which you request literature on&hellip;" />
 	<style type="text/css">
 			.site-title a,
 		.site-description {
@@ -344,6 +347,69 @@ var related_posts_js_options = {"post_heading":"h4"};
 		}
 		</style>
 	<link rel="amphtml" href="https://thewayofimprovement.com/2020/06/19/the-unsettling-similarities-between-a-1964-george-wallace-letter-and-the-rhetoric-of-donald-trump/amp/"><style type="text/css" id="custom-colors-css">.comment-metadata a{color:#6d6d6d}.sep{color:#6d6d6d}th,td{border-color:#ddd}th,td{border-color:rgba(221,221,221,.5)}.format-aside .entry-content,blockquote,pre{background-color:#eee}.format-aside .entry-content,blockquote,pre{background-color:rgba(238,238,238,.2)}input[type=text],input[type=email],input[type=url],input[type=password],input[type=search],textareali>article.comment,.hentry,.widget ul li,.widget,.site-main .comment-navigation,.site-main .paging-navigation,.site-main .post-navigation,.comment-list>li:first-child>article.comment:first-child,.page-title{border-color:#eee}input[type=text],input[type=email],input[type=url],input[type=password],input[type=search],textareali>article.comment,.hentry,.widget ul li,.widget,.site-main .comment-navigation,.site-main .paging-navigation,.site-main .post-navigation,.comment-list>li:first-child>article.comment:first-child,.page-title{border-color:rgba(238,238,238,.5)}.site-title a,.site-title a:visited{color:#fff}.entry-tags a,.entry-tags a:visited{color:#6d6d6d}.entry-tags a:hover{color:#353535}.featured-image .flag{color:#353535}.site-footer button,.site-footer input[type=button],.site-footer input[type=reset],.site-footer input[type=submit],.widget_search .search-submit{color:#353535}.site-footer button:hover,.site-footer input[type=button]:hover,.site-footer input[type=reset]:hover,.site-footer input[type=submit]:hover,.widget_search .search-submit:hover{color:#353535}button:hover,input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover{color:#353535}#header-search .search-submit{color:#353535}address{background-color:#f1f1f1}address{background-color:rgba(241,241,241,.2)}.entry-content table tbody>tr:nth-child(odd)>td{background-color:#f9f9f9}.entry-content table tbody>tr:nth-child(odd)>td{background-color:rgba(249,249,249,.2)}blockquote{color:#000}.entry-title,.entry-title a,.entry-title a:visited,.comments-title{color:#2d2d2d}.format-quote .entry-content{background-color:#262626}.format-quote .entry-content{background-color:rgba(38,38,38,.2)}body,button,input,textarea{color:#444}.widget-title,th{color:#444}.comment-author a,.comment-author a:visited{color:#444}mark,ins{color:#444}.widget{color:#555}.jetpack-recipe{border-color:#666}.jetpack-recipe{border-color:rgba(102,102,102,.3)}blockquote cite{color:#666}.entry-tags a,.entry-tags a:visited{background-color:#767676}.entry-tags a,.entry-tags a:visited{background-color:rgba(118,118,118,.4)}.entry-tags a:after{border-right-color:#767676}.entry-tags a:after{border-right-color:rgba(118,118,118,.4)}.entry-categories:before{color:#6d6d6d}.wp-caption-text{color:#6d6d6d}.entry-meta,.entry-meta a,.entry-meta a:visited,.page-title,.no-comments{color:#6d6d6d}body,#infinite-footer .container,.entry-tags a:before{background-color:#fff}.site-footer button,.site-footer input[type=button],.site-footer input[type=reset],.site-footer input[type=submit],.widget_search .search-submit{background-color:#cf9e38}button:hover,input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover{background-color:#cf9e38}.widget_search .search-submit{border-color:#cf9e38}.site-footer button:hover,.site-footer input[type=button]:hover,.site-footer input[type=reset]:hover,.site-footer input[type=submit]:hover,.widget_search .search-submit:hover{background-color:#ac8329}.widget_search .search-submit:hover{border-color:#ac8329}.featured-image .flag{background-color:#cf9e38}.jetpack-recipe-title{border-color:#cf9e38}.entry-tags a:hover{background-color:#cf9e38}.entry-tags a:hover:after{border-right-color:#cf9e38}#header-search .search-submit{border-color:#cf9e38}#header-search .search-submit{background-color:#cf9e38}#header-search .search-submit:hover{background-color:#ac8329}#header-search .search-submit:hover{border-color:#ac8329}a,a:visited,a:hover,a:focus,a:active,.entry-title a:hover{color:#8b681c}.site-title a:hover,.site-title a:focus{color:#cf9e38}.site-footer a,.site-footer a:visited,.site-footer a:hover,.site-footer a:focus,.site-footer a:active{color:#cf9e38}.widget-areas a,.widget-areas a:visited,.widget-areas a:hover,.widget-areas a:focus,.widget-areas a:active{color:#cf9e38}#tertiary .widget_eventbrite .eb-calendar-widget .event-list li a:link .eb-event-list-title,#tertiary .widget_eventbrite .eb-calendar-widget .event-list li a:visited .eb-event-list-title,#tertiary .widget_eventbrite .eb-calendar-widget .calendar .current-month,#tertiary .widget_eventbrite .eb-calendar-widget .event-paging,#tertiary .widget_eventbrite th{color:#cf9e38}</style>
+
+
+  <!-- ############################### Begin: CiteIt Dependencies ##################################
+      - jQuery: manipulate Dom: 
+      - query api.CiteIt.net
+      - download JSON to hidden citeit_container div
+      - add arrows and popup links to q tags and blockquotes
+
+  ------ 1) jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 2) jQuery Migrate: Used to migrate jQuery: https://github.com/jquery/jquery-migrate -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" 
+	integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" 
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 3) Generate q-tag Popup -->
+  <script   
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 4) Calculate JSON Hash values using sha256 library --->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/forge-sha256/build/forge-sha256.min.js' defer></script>
+
+
+  <!-- 5) jsVideoUrlParser: Detect Domain: Determine if an Embed code can be use: YouTube, Vimeo, Soundcloud -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jsVideoUrlParser/dist/jsVideoUrlParser.min.js' defer></script>
+
+  <!--CSS Styles: CiteIt & JQuery Popup Window -->
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
+
+  <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
+
+  <!--Change q-tag style to match Wikipedia -->
+  <style>
+
+    q, q a, span.q {
+	text-decoration: none;
+	border-bottom: 0px dotted;
+	color: #0ebfe9;	
+    }
+    q a:visited {
+	color: #0ebfe9;	
+    }
+
+    div.quote_arrows a, q, q a, span.q, a.citeit_source_domain {
+	 color: #0ebfe9; 
+    }
+
+  </style>
+
+
+  <!-- ############################### End: CiteIt.net Dependencies #######################################-->
+
+
 </head>
 
 <body class="post-template-default single single-post postid-125900 single-format-standard customizer-styles-applied group-blog highlander-enabled highlander-light custom-colors">
@@ -412,10 +478,12 @@ var related_posts_js_options = {"post_heading":"h4"};
 <p><em>Sincerely yours,</em><br />
 <em>George C Wallace</em></p>
 <p><em>P.S. I am forwarding to you under separate cover copies of two of my speeches. One is on the Civil Rights Bill, the other on Communism.</em></p>
-<p>Wallace writes, &#8220;we have never had a problem here in the South except in a very few isolated instances and these have been the result of outside agitators.&#8221;</p>
+</blockquote>
+
+<p>Wallace writes, &#8220;<!--q cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf"-->we have never had a problem here in the South except in a very few isolated instances and these have been the result of outside agitators.<!--/q-->&#8221;</p>
 <p>Here is Donald Trump:</p>
 <p style="text-align:center;"><div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' width='560' height='315' src='https://www.youtube.com/embed/jswgEdJTrfU?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></div></p>
-<p><a href="https://www.nytimes.com/2020/05/31/us/george-floyd-protests-white-supremacists-antifa.html">Here</a> is Attorney General Bill Barr on May 30, 2020: &#8220;Groups of outside radicals and agitators are exploiting the situation to pursue their own separate, violent and extremist agenda.&#8221;</p>
+<p><a href="https://www.nytimes.com/2020/05/31/us/george-floyd-protests-white-supremacists-antifa.html">Here</a> is Attorney General Bill Barr on May 30, 2020: &#8220;<q cite="https://www.nytimes.com/2020/05/31/us/george-floyd-protests-white-supremacists-antifa.html">Groups of outside radicals and agitators are exploiting the situation to pursue their own separate, violent and extremist agenda.</q>&#8221;</p>
 <p>The White House retweeted this on June 9:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">&#8220;The people who live in high-crime neighborhoods understand more about policing than the anti-cop agitators,&#8221; Heather Mac Donald writes.</p>
@@ -423,7 +491,7 @@ var related_posts_js_options = {"post_heading":"h4"};
 <p>West Wing Reads: <a href="https://t.co/DaQTQQYSok">https://t.co/DaQTQQYSok</a> <a href="https://t.co/5sPqiG9rWN">pic.twitter.com/5sPqiG9rWN</a></p>
 <p>— The White House (@WhiteHouse) <a href="https://twitter.com/WhiteHouse/status/1270429891079680006?ref_src=twsrc%5Etfw">June 9, 2020</a></p></blockquote>
 <p>Read <a href="https://www.cnn.com/2020/06/04/us/outside-agitator-label-history-trnd/index.html">this</a> for a short history of the phrase &#8220;outside agitators.&#8221; Also, read Martin Luther King&#8217;s &#8220;<a href="https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html">Letter from a Birmingham Jail</a>.&#8221;</p>
-<p>Here is Wallace again: &#8220;Contrary to reports of many of the national news media and the propaganda distributed by various organizations, our efforts here in the South are not against the Negro citizen.&#8221;</p>
+<p>Here is Wallace again: &#8220;<q cite="http://demo-sites.citeit.net/thewayofimprovement.com/2020/06/19/the-unsettling-similarities-between-a-1964-george-wallace-letter-and-the-rhetoric-of-donald-trump/">Contrary to reports of many of the national news media and the propaganda distributed by various organizations, our efforts here in the South are not against the Negro citizen.</q>&#8221;</p>
 <p>And Trump:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">The Lamestream Media is doing everything within their power to foment hatred and anarchy. As long as everybody understands what they are doing, that they are FAKE NEWS and truly bad people with a sick agenda, we can easily work through them to GREATNESS!</p>
@@ -434,14 +502,14 @@ var related_posts_js_options = {"post_heading":"h4"};
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">The Lamestream Media refuses to talk about our Country’s record setting Jobs Numbers, which are indicating GREATNESS, and soon!</p>
 <p>— Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1269976902665752576?ref_src=twsrc%5Etfw">June 8, 2020</a></p></blockquote>
-<p>Wallace again: &#8220;We fight for the betterment of <em>all citizens</em> in our state&#8221; (Italics mine).</p>
+<p>Wallace again: &#8220;<!--q cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf"-->We fight for the betterment of <em>all citizens</em> in our state<!--/q-->&#8221; (Italics mine).</p>
 <p>And Trump:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">&#8220;@julieruot: I want a president who believes all lives matter and that is why we need <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">@realDonaldTrump</a>.&#8221;</p>
 <p>— Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/654115425895231489?ref_src=twsrc%5Etfw">October 14, 2015</a></p></blockquote>
 <p>Or watch this:</p>
 <p style="text-align:center;"><div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' width='560' height='315' src='https://www.youtube.com/embed/ZrdOPNXlPEU?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></div></p>
-<p>Wallace wrote, &#8220;I personally have done more for the Negroes of the State of Alabama than any other individual.&#8221;</p>
+<p>Wallace wrote, &#8220;<!--q cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf"-->I personally have done more for the Negroes of the State of Alabama than any other individual<!--/q-->.&#8221;</p>
 <p>Trump:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">Crazy Bernie and the Democrats should see this. I have done far more for the African American community than any President. Secured funding for HBCUs, Criminal Justice Reform, Opportunity Zones, School Choice, Record Low Unemployment, and so much more. THE BEST IS YET TO COME! <a href="https://t.co/CcOOsGcdDa">https://t.co/CcOOsGcdDa</a></p>
@@ -455,7 +523,7 @@ var related_posts_js_options = {"post_heading":"h4"};
 <p>And this:</p>
 <p style="text-align:center;"><div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' width='560' height='315' src='https://www.youtube.com/embed/j6SuZPkhTVQ?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></div></p>
 <p>Here is Wallace:</p>
-<p><em>I sponsored the Bill which established and provided for the three largest Negro Trade Schools in the South when I was a member of the Legislature&#8230;.Since I have become Governor, I sponsored the program which has provided for two new Negro Junior Colleges and Trade Schools in the State of Alabama, and for the improvement of three already in existence. Through my efforts, all Negro Educational Institutions in the State have the largest appropriations in their history.</em></p>
+<blockquote cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf"><p><em>I sponsored the Bill which established and provided for the three largest Negro Trade Schools in the South when I was a member of the Legislature&#8230;.Since I have become Governor, I sponsored the program which has provided for two new Negro Junior Colleges and Trade Schools in the State of Alabama, and for the improvement of three already in existence. Through my efforts, all Negro Educational Institutions in the State have the largest appropriations in their history.</em></p></blockquote>
 <p>Here is Trump:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">GREAT WORK yesterday by the Senate to support our Historically Black Colleges and Universities! Thank you <a href="https://twitter.com/BetsyDeVosED?ref_src=twsrc%5Etfw">@BetsyDeVosED</a>, <a href="https://twitter.com/SenAlexander?ref_src=twsrc%5Etfw">@SenAlexander</a>, and <a href="https://twitter.com/SenatorTimScott?ref_src=twsrc%5Etfw">@SenatorTimScott</a> for your leadership&#8230;</p>
@@ -464,7 +532,7 @@ var related_posts_js_options = {"post_heading":"h4"};
 <p dir="ltr" lang="en">America&#8217;s Historically Black Colleges and Universities have unprecedented support from President <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">@realDonaldTrump</a>! <a href="https://t.co/HdhCkaznyB">pic.twitter.com/HdhCkaznyB</a></p>
 <p>— The White House (@WhiteHouse) <a href="https://twitter.com/WhiteHouse/status/1270837714699653126?ref_src=twsrc%5Etfw">June 10, 2020</a></p></blockquote>
 <p>Get the full story <a href="https://www.insidehighered.com/news/2020/01/23/trumps-claim-about-saving-hbcus-was-false-his-administration-has-largely-backed">here</a>.</p>
-<p>Wallace again: &#8220;In addition, the State of Alabama enjoyed its greatest year of industrial development in 1963. Over 20,000 new jobs were created for the cities of Alabama. Many of these jobs will be filled by Negroes.&#8221;</p>
+<p>Wallace again: &#8220;<!--q cite="https://www.gilderlehrman.org/sites/default/files/inline-pdfs/00295_FPS_0.pdf"-->In addition, the State of Alabama enjoyed its greatest year of industrial development in 1963. Over 20,000 new jobs were created for the cities of Alabama. Many of these jobs will be filled by Negroes.<!--/q-->&#8221;</p>
 <p>Trump:</p>
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">It was exactly three years ago today, January 20, 2017, that I was sworn into office. So appropriate that today is also MLK jr DAY. African-American Unemployment is the LOWEST in the history of our Country, by far. Also, best Poverty, Youth, and Employment numbers, ever. Great!</p>
@@ -863,5 +931,16 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 	
 }
 </script>
+
+<!-- ################ Begin: CiteIt.net Dependencies ############# -->
+  <div id='citeit_container'><!-- CiteIt-quote-context.js injects data returned from lookup in this hidden div --></div>
+  <script>
+	// Call CiteIt.net plugin on all q-tags and blockquotes:
+	$( document ).ready(function() {
+		jQuery('q, blockquote').quoteContext();
+	});
+  </script>
+<!-- ############### End: CiteIt.net Dependencies ############## -->
+
 </body>
 </html>
