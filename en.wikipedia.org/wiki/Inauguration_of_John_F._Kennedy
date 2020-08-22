@@ -31,7 +31,6 @@
 <link rel="dns-prefetch" href="https://meta.wikimedia.org/" />
 
 
-
   <!-- ############################### Begin: CiteIt Dependencies ##################################
       - jQuery: manipulate Dom: 
       - query api.CiteIt.net
