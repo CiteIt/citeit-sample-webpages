@@ -100,6 +100,17 @@
 	/* background-color: #e4ebf5;  */
     }
 
+	/* wiki markup */
+	div#citeit_video {
+	  background-color: #eee;
+	  padding-bottom: 30px;
+	}
+
+	div#citeit_vide h2 {
+	  font-size: 125%;
+	}
+
+
   </style>
 
 
@@ -179,6 +190,30 @@
 </p>
 <a href="https://en.wikipedia.org/wiki/List_of_personal_coats_of_arms_of_Presidents_of_the_United_States" title="List of personal coats of arms of Presidents of the United States"><img alt="Coat of Arms of John F. Kennedy.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_Arms_of_John_F._Kennedy.svg/40px-Coat_of_Arms_of_John_F._Kennedy.svg.png" decoding="async" width="40" height="60" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_Arms_of_John_F._Kennedy.svg/60px-Coat_of_Arms_of_John_F._Kennedy.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_Arms_of_John_F._Kennedy.svg/80px-Coat_of_Arms_of_John_F._Kennedy.svg.png 2x" data-file-width="395" data-file-height="588" /></a></td>
 </tr><tr><td style="text-align:right;font-size:115%;text-align:center;"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:John_F._Kennedy_series" title="Template:John F. Kennedy series"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:John_F._Kennedy_series" title="Template talk:John F. Kennedy series"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:John_F._Kennedy_series&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+
+<!--Begin: CiteIt.net Video -->
+<div id="citeit_video">
+<h2>Demo: <a href="https://www.citeit.net">CiteIt.net: Contextual Citations</a></h2>
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/vymtr-neR_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<ul>
+
+  <li><a href="https://www.citeit.net/">CiteIt.net homepage</a></li>
+  <li><a href="https://www.citeit.net/2020/09/06/citeit-net-wikipedia-demo/#how-it-works">How the Code Works</a></li>
+  <li><a href="https://www.citeit.net/sample-code/examples.html">Code Examples</a></li>
+  <li><a href="https://demo.citeit.net/">Test-Drive WordPress plugin on Demo Site</a></li>
+  <li><a href="https://meta.wikimedia.org/wiki/User:Timlangeman/sandbox">Proposal: Adding Contextual Citations to Wikipedia</a></li>
+  <li><a href="https://www.citeit.net/code/">Code</a>: download all Git Repositories</li>
+  <li><a href="https://www.citeit.net/volunteer/">Volunteer</a></li>
+
+</ul>
+
+</div>
+
+<!--End: CiteIt.net Video -->
+
 <p>The <b>inauguration of John F. Kennedy</b> as the <a href="https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States" class="mw-redirect" title="List of Presidents of the United States">35th</a> <a href="https://en.wikipedia.org/wiki/President_of_the_United_States" title="President of the United States">President of the United States</a> was held on Friday, January 20, 1961, at the East Portico of the <a href="https://en.wikipedia.org/wiki/United_States_Capitol" title="United States Capitol">United States Capitol</a> in <a href="https://en.wikipedia.org/wiki/Washington,_D.C." title="Washington, D.C.">Washington, D.C.</a> This was the 44th <a href="https://en.wikipedia.org/wiki/United_States_presidential_inauguration" title="United States presidential inauguration">inauguration</a> and marked the commencement of the only term of both <a href="https://en.wikipedia.org/wiki/John_F._Kennedy" title="John F. Kennedy">John F. Kennedy</a> as President and <a href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson" title="Lyndon B. Johnson">Lyndon B. Johnson</a> as <a href="https://en.wikipedia.org/wiki/Vice_President_of_the_United_States" title="Vice President of the United States">Vice President</a>. Kennedy was <a href="https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy" title="Assassination of John F. Kennedy">assassinated</a> 2&#160;years, 306&#160;days into this term, and Johnson succeeded to the presidency.
 </p><p>Kennedy took office following the November 1960 <a href="https://en.wikipedia.org/wiki/1960_United_States_presidential_election" title="1960 United States presidential election">presidential election</a>, in which he narrowly defeated <a href="https://en.wikipedia.org/wiki/Richard_Nixon" title="Richard Nixon">Richard Nixon</a>, the incumbent Vice President. He was the first <a href="https://en.wikipedia.org/wiki/Catholic_Church" title="Catholic Church">Catholic</a> to become President, and became the youngest person elected to the office.
 </p><p>His inaugural address encompassed the major themes of his <a href="https://en.wikipedia.org/wiki/Elections_in_the_United_States" title="Elections in the United States">campaign</a> and would define his <a href="https://en.wikipedia.org/wiki/Timeline_of_the_presidency_of_John_F._Kennedy" class="mw-redirect" title="Timeline of the presidency of John F. Kennedy">presidency</a> during a time of economic prosperity, emerging social changes, and diplomatic challenges.<sup id="cite_ref-1" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-1">&#91;1&#93;</a></sup> This inauguration was the first in which a poet, <a href="https://en.wikipedia.org/wiki/Robert_Frost" title="Robert Frost">Robert Frost</a>, participated in the program.
