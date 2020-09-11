@@ -1,0 +1,10 @@
+Sitemap: https://www.nationalreview.com/news-sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.nationalreview.com/wp-sitemap.xml
+# Sitemap archive
+Sitemap: https://www.nationalreview.com/sitemap.xml
+
