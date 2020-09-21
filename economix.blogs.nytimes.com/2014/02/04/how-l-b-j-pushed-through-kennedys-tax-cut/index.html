@@ -122,6 +122,96 @@ require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
 <esi:include src="/svc/web-products/userinfo-v3.json" />
 </script>
 -->
+
+
+
+
+  <!-- ############################### Begin: CiteIt Dependencies ##################################
+      - jQuery: manipulate Dom: 
+      - query api.CiteIt.net
+      - download JSON to hidden citeit_container div
+      - add arrows and popup links to q tags and blockquotes
+
+  ------ 1) jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 2) jQuery Migrate: Used to migrate jQuery: https://github.com/jquery/jquery-migrate -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" 
+	integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" 
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 3) Generate q-tag Popup -->
+  <script   
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 4) Calculate JSON Hash values using sha256 library --->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/forge-sha256/build/forge-sha256.min.js' defer></script>
+
+
+  <!-- 5) jsVideoUrlParser: Detect Domain: Determine if an Embed code can be use: YouTube, Vimeo, Soundcloud -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jsVideoUrlParser/dist/jsVideoUrlParser.min.js' defer></script>
+
+  <!--CSS Styles: CiteIt & JQuery Popup Window -->
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
+
+  <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
+
+  <!--Change q-tag style to match Wikipedia -->
+  <style>
+	q {
+    		quotes: "" "" "" "";
+	}
+
+    q, q a, span.q {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 0px dotted;
+	background-color: #d6e8ec;
+	
+    }
+    q a:visited {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: none;
+    }
+
+    q a:hover {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: #0645ad underline;
+    }
+
+    div.quote_arrows a,  a.citeit_source_domain {
+	color: #0ebfe9;
+	/* background-color: #e4ebf5;  */
+    }
+
+	/* wiki markup */
+	div#citeit_video {
+	  background-color: #eee;
+	  padding-bottom: 30px;
+	}
+
+	div#citeit_vide h2 {
+	  font-size: 125%;
+	}
+
+
+  </style>
+
+
+  <!-- ############################### End: CiteIt.net Dependencies #######################################-->
+
+
 </head>
 
 <body class="single single-post postid-171933 blog-universal nyt-blog-economix" id="" data-env="production" data-region="ewr1">
@@ -294,20 +384,17 @@ require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
                                     F. Byrd Sr. of Virginia, strongly opposed the tax cut.
                                     <p></p>
                                     <p class="story-body-text" itemprop="articleBody">Typical among the Southern Democrats on the Finance Committee was <a href="https://query.nytimes.com/mem/archive/pdf?res=F40616FF35581A7B93C0A8178AD95F478685F9" title="Article in The New York Times.">the view</a> of Senator
-                                        Albert Gore Sr. of Tennessee: &#x201C;It is not sound policy to borrow money to cut taxes.&#x201D; Moreover, tax cuts would impair the government&#x2019;s ability to spend on pressing national priorities, he said.</p>
+                                        Albert Gore Sr. of Tennessee: &#x201C;<!--q cite="https://query.nytimes.com/mem/archive/pdf?res=F40616FF35581A7B93C0A8178AD95F478685F9"-->It is not sound policy to borrow money to cut taxes.<!--/q-->&#x201D; Moreover, tax cuts would impair the government&#x2019;s ability to spend on pressing national priorities, he said.</p>
                                     <p class="story-body-text" itemprop="articleBody">This latter view is one that is commonly called &#x201C;<a href="https://bartlett.blogs.nytimes.com/2006/04/04/tax-cuts-dont-starve-the-beast/?_php=true&amp;_type=blogs&amp;_r=0" title="Commentary by Bruce Bartlett.">starve the beast</a>&#x201D;
                                         and was one of the arguments Ronald Reagan made in favor of his tax cut in 1981. That is, a beneficial effect of the tax cut was that it would force Congress to cut spending to reduce the deficit.</p>
                                     <p class="story-body-text" itemprop="articleBody">Conservative supporters of the tax cut in 1963 used the starve-the-beast argument as well. On Nov. 4, 1963, Stuart T. Saunders, chairman of the Pennsylvania Railroad Company, <a href="https://query.nytimes.com/mem/archive/pdf?res=F10D17FB3A581A7B93C7A9178AD95F478685F9"
-                                            title="Article in The New York Times.">said the tax cut</a> would &#x201C;offer the best hope of controlling spending and balancing the budget in the longer run.&#x201D;</p>
+                                            title="Article in The New York Times.">said the tax cut</a> would &#x201C;<!--q cite="https://query.nytimes.com/mem/archive/pdf?res=F10D17FB3A581A7B93C7A9178AD95F478685F9"-->offer the best hope of controlling spending and balancing the budget in the longer run.</q>&#x201D;<!--/p-->
                                     <p class="story-body-text" itemprop="articleBody">Despite Kennedy&#x2019;s efforts to gain swift Senate action on the tax cut after its passage by the House on Sept. 25, 1963, Senator Byrd insisted on full and careful deliberation in his committee. He scheduled several
                                         weeks of hearings to slow down the tax cut effort and <a href="https://query.nytimes.com/mem/archive/pdf?res=F40B11FD3A541A7B93C4A8178AD95F478685F9" title="Article in The New York Times.">refused to be rushed</a>.</p>
                                     <p class="story-body-text" itemprop="articleBody">We will never know for sure whether the tax cut would have passed the Senate had Kennedy lived or perhaps been so watered down and amended that it would have failed to stimulate the economy. All we know for sure is
                                         that after Kennedy&#x2019;s assassination on Nov. 22, 1963, Johnson made passage of the tax cut a top priority. Addressing a joint session of Congress on Nov. 27, <a href="https://www.presidency.ucsb.edu/ws/index.php?pid=25988&amp;st=&amp;st1="
                                             title="Speech by President Johnson.">he said</a>:</p>
-                                    <blockquote>
-                                        <p class="story-body-text" itemprop="articleBody">No act of ours could more fittingly continue the work of President Kennedy than the early passage of the tax bill for which he fought all this long year. This is a bill designed to increase our national income and
-                                            federal revenues, and to provide insurance against recession. That bill, if passed without delay, means more security for those now working, more jobs for those now without them, and more incentive for our economy.
-                                        </p>
+                                    <blockquote cite="https://www.pbs.org/ladybird/epicenter/epicenter_doc_speech.html">no act of ours could more fittingly continue the work of President Kennedy than the early passage of the tax bill for which he fought all this long year. This is a bill designed to increase our national income and Federal revenues, and to provide insurance against recession. That bill, if passed without delay, means more security for those now working, more jobs for those now without them, and more incentive for our economy.
                                     </blockquote>
                                     <p class="story-body-text" itemprop="articleBody">One crucial problem confronting Johnson was that he took office in the midst of planning for the budget for the 1965 fiscal year, which would be sent to Congress in just a few weeks. He was somewhat hamstrung by a promise
                                         Kennedy had made to keep the deficit <a href="https://query.nytimes.com/mem/archive/pdf?res=F40810FF3D5A12718DDDAE0A94D9415B838AF1D3" title="Article in The New York Times.">below $9.2 billion</a>. This may not sound like
@@ -642,6 +729,21 @@ require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
             });
         });
     </script>
+
+
+
+<!-- ################ Begin: CiteIt.net Dependencies ############# -->
+  <div id='citeit_container'><!-- CiteIt-quote-context.js injects data returned from lookup in this hidden div --></div>
+  <script>
+	// Call CiteIt.net plugin on all q-tags and blockquotes:
+	$( document ).ready(function() {
+		jQuery('q, blockquote').quoteContext();
+	});
+  </script>
+<!-- ############### End: CiteIt.net Dependencies ############## -->
+
+
+
 </body>
 
 </html>
