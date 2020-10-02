@@ -27,6 +27,94 @@
 <link rel="canonical" href="Syphilis"/>
 <link rel="dns-prefetch" href="https://login.wikimedia.org/"/>
 <link rel="dns-prefetch" href="https://meta.wikimedia.org/" />
+
+
+  <!-- ############################### Begin: CiteIt Dependencies ##################################
+      - jQuery: manipulate Dom: 
+      - query api.CiteIt.net
+      - download JSON to hidden citeit_container div
+      - add arrows and popup links to q tags and blockquotes
+
+  ------ 1) jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 2) jQuery Migrate: Used to migrate jQuery: https://github.com/jquery/jquery-migrate -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" 
+	integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" 
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 3) Generate q-tag Popup -->
+  <script   
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 4) Calculate JSON Hash values using sha256 library --->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/forge-sha256/build/forge-sha256.min.js' defer></script>
+
+
+  <!-- 5) jsVideoUrlParser: Detect Domain: Determine if an Embed code can be use: YouTube, Vimeo, Soundcloud -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jsVideoUrlParser/dist/jsVideoUrlParser.min.js' defer></script>
+
+  <!--CSS Styles: CiteIt & JQuery Popup Window -->
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
+
+  <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
+
+  <!--Change q-tag style to match Wikipedia -->
+  <style>
+	q {
+    		quotes: "" "" "" "";
+	}
+
+    q, q a, span.q {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 0px dotted;
+	background-color: #d6e8ec;
+	
+    }
+    q a:visited {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: none;
+    }
+
+    q a:hover {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: #0645ad underline;
+    }
+
+    div.quote_arrows a,  a.citeit_source_domain {
+	color: #0ebfe9;
+	/* background-color: #e4ebf5;  */
+    }
+
+	/* wiki markup */
+	div#citeit_video {
+	  background-color: #eee;
+	  padding-bottom: 30px;
+	}
+
+	div#citeit_vide h2 {
+	  font-size: 125%;
+	}
+
+
+  </style>
+
+
+  <!-- ############################### End: CiteIt.net Dependencies #######################################-->
+
+
 </head>
 <body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Syphilis rootpage-Syphilis skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
 <div id="mw-head-base" class="noprint"></div>
@@ -42,6 +130,12 @@
 		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
 		<div id="contentSub"></div>
 		<div id="contentSub2"></div>
+
+<div class="highlight">
+<h3>This is a Mockup of what Wikipedia would look like if it used <a href="https://www.citeit.net/">CiteIt.net</a></h3>
+<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> | <a href="https://demo-sites.citeit.net/">Back to Mockups &#8629;</a>
+</div>
+
 		
 		<div id="jump-to-nav"></div>
 		<a class="mw-jump-link" href="Syphilis#mw-head">Jump to navigation</a>
@@ -58,6 +152,10 @@
 </p><p>The risk of sexual transmission of syphilis can be reduced by using a latex or polyurethane <a href="https://en.wikipedia.org/wiki/Condom" title="Condom">condom</a>.<sup id="cite_ref-CDC2015Fact_1-15" class="reference"><a href="Syphilis#cite_note-CDC2015Fact-1">&#91;1&#93;</a></sup> Syphilis can be effectively treated with <a href="https://en.wikipedia.org/wiki/Antibiotics" class="mw-redirect" title="Antibiotics">antibiotics</a>.<sup id="cite_ref-CDC2015Tx_3-2" class="reference"><a href="Syphilis#cite_note-CDC2015Tx-3">&#91;3&#93;</a></sup> The preferred antibiotic for most cases is <a href="https://en.wikipedia.org/wiki/Benzathine_benzylpenicillin" title="Benzathine benzylpenicillin">benzathine benzylpenicillin</a> <a href="https://en.wikipedia.org/wiki/Intramuscular" class="mw-redirect" title="Intramuscular">injected into a muscle</a>.<sup id="cite_ref-CDC2015Tx_3-3" class="reference"><a href="Syphilis#cite_note-CDC2015Tx-3">&#91;3&#93;</a></sup> In those who have a severe <a href="https://en.wikipedia.org/wiki/Penicillin_allergy" class="mw-redirect" title="Penicillin allergy">penicillin allergy</a>, <a href="https://en.wikipedia.org/wiki/Doxycycline" title="Doxycycline">doxycycline</a> or <a href="https://en.wikipedia.org/wiki/Tetracycline" title="Tetracycline">tetracycline</a> may be used.<sup id="cite_ref-CDC2015Tx_3-4" class="reference"><a href="Syphilis#cite_note-CDC2015Tx-3">&#91;3&#93;</a></sup> In those with <a href="https://en.wikipedia.org/wiki/Neurosyphilis" title="Neurosyphilis">neurosyphilis</a>, <a href="https://en.wikipedia.org/wiki/Intravenous" class="mw-redirect" title="Intravenous">intravenous</a> <a href="https://en.wikipedia.org/wiki/Benzylpenicillin" title="Benzylpenicillin">benzylpenicillin</a> or <a href="https://en.wikipedia.org/wiki/Ceftriaxone" title="Ceftriaxone">ceftriaxone</a> is recommended.<sup id="cite_ref-CDC2015Tx_3-5" class="reference"><a href="Syphilis#cite_note-CDC2015Tx-3">&#91;3&#93;</a></sup> During treatment people may develop fever, headache, and <a href="https://en.wikipedia.org/wiki/Myalgia" title="Myalgia">muscle pains</a>, a reaction known as <a href="https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction" title="Jarisch–Herxheimer reaction">Jarisch–Herxheimer</a>.<sup id="cite_ref-CDC2015Tx_3-6" class="reference"><a href="Syphilis#cite_note-CDC2015Tx-3">&#91;3&#93;</a></sup>
 </p><p>In 2015, about 45.4&#160;million people were infected with syphilis,<sup id="cite_ref-GBD2015Pre_4-1" class="reference"><a href="Syphilis#cite_note-GBD2015Pre-4">&#91;4&#93;</a></sup> with six million new cases.<sup id="cite_ref-New2015_8-0" class="reference"><a href="Syphilis#cite_note-New2015-8">&#91;8&#93;</a></sup> During 2015, it caused about 107,000 deaths, down from 202,000 in 1990.<sup id="cite_ref-GBD2015Death_5-1" class="reference"><a href="Syphilis#cite_note-GBD2015Death-5">&#91;5&#93;</a></sup><sup id="cite_ref-Loz2012_9-0" class="reference"><a href="Syphilis#cite_note-Loz2012-9">&#91;9&#93;</a></sup> After decreasing dramatically with the availability of penicillin in the 1940s, rates of infection have increased since the turn of the millennium in many countries, often in combination with <a href="https://en.wikipedia.org/wiki/HIV" title="HIV">human immunodeficiency virus</a> (HIV).<sup id="cite_ref-Kent08_2-4" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup><sup id="cite_ref-Music08_10-0" class="reference"><a href="Syphilis#cite_note-Music08-10">&#91;10&#93;</a></sup> This is believed to be partly due to increased <a href="https://en.wikipedia.org/wiki/Promiscuity" title="Promiscuity">promiscuity</a>, <a href="https://en.wikipedia.org/wiki/Prostitution" title="Prostitution">prostitution</a>, decreasing use of condoms, and unsafe sexual practices among <a href="https://en.wikipedia.org/wiki/Men_who_have_sex_with_men" title="Men who have sex with men">men who have sex with men</a>.<sup id="cite_ref-Coffin2010_11-0" class="reference"><a href="Syphilis#cite_note-Coffin2010-11">&#91;11&#93;</a></sup><sup id="cite_ref-Gao2009_12-0" class="reference"><a href="Syphilis#cite_note-Gao2009-12">&#91;12&#93;</a></sup><sup id="cite_ref-Karp2009_13-0" class="reference"><a href="Syphilis#cite_note-Karp2009-13">&#91;13&#93;</a></sup>
 </p>
+<div class="highlight">
+<h3>Scroll down to view the first contextual citation</h3>
+</div>
+
 <style data-mw-deduplicate="TemplateStyles:r886046785">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class="toclimit-3"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="Syphilis#Signs_and_symptoms"><span class="tocnumber">1</span> <span class="toctext">Signs and symptoms</span></a>
@@ -114,8 +212,14 @@
 <h2><span class="mw-headline" id="Signs_and_symptoms">Signs and symptoms</span></h2>
 <p>Syphilis can <a href="https://en.wikipedia.org/wiki/Presentation_(medical)" title="Presentation (medical)">present</a> in one of four different stages: primary, secondary, latent, and tertiary,<sup id="cite_ref-Kent08_2-5" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup> and may also occur <a href="https://en.wikipedia.org/wiki/Congenital" class="mw-redirect" title="Congenital">congenitally</a>.<sup id="cite_ref-ST10_14-0" class="reference"><a href="Syphilis#cite_note-ST10-14">&#91;14&#93;</a></sup> It was referred to as "the great imitator" by <a href="https://en.wikipedia.org/wiki/Sir_William_Osler" class="mw-redirect" title="Sir William Osler">Sir William Osler</a> due to its varied presentations.<sup id="cite_ref-Kent08_2-6" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup><sup id="cite_ref-TUS00_15-0" class="reference"><a href="Syphilis#cite_note-TUS00-15">&#91;15&#93;</a></sup><sup id="cite_ref-16" class="reference"><a href="Syphilis#cite_note-16">&#91;16&#93;</a></sup>
 </p>
+<div class="highlight">
+<h3>Scroll down to view first example quote.</h3>
+
+</div>
+
+
 <h3><span class="mw-headline" id="Primary">Primary</span></h3>
-<div class="thumb tright"><div class="thumbinner" style="width:312px;"><a href="https://en.wikipedia.org/wiki/File:Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg/310px-Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg" decoding="async" width="310" height="215" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg/465px-Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg/620px-Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg 2x" data-file-width="1755" data-file-height="1215" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg" class="internal" title="Enlarge"></a></div>Primary <a href="https://en.wikipedia.org/wiki/Chancre" title="Chancre">chancre</a> of syphilis at the site of infection on the penis</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:312px;"><a href="https://en.wikipedia.org/wiki/File:Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg" class="image"><img alt="" src="" decoding="async" width="310" height="215" class="thumbimage" srcset="" data-file-width="1755" data-file-height="1215" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg" class="internal" title="Enlarge"></a></div>Primary <a href="https://en.wikipedia.org/wiki/Chancre" title="Chancre">chancre</a> of syphilis at the site of infection on the penis</div></div></div>
 <p>Primary syphilis is typically acquired by direct sexual contact with the infectious lesions of another person.<sup id="cite_ref-RedBookSyphilis_17-0" class="reference"><a href="Syphilis#cite_note-RedBookSyphilis-17">&#91;17&#93;</a></sup> Approximately 2–6 weeks after contact (with a range of 10–90 days) a skin lesion, called a <a href="https://en.wikipedia.org/wiki/Chancre" title="Chancre">chancre</a>, appears at the site and this contains infectious spirochetes.<sup id="cite_ref-18" class="reference"><a href="Syphilis#cite_note-18">&#91;18&#93;</a></sup><sup id="cite_ref-NEJM2020_19-0" class="reference"><a href="Syphilis#cite_note-NEJM2020-19">&#91;19&#93;</a></sup> This is classically&#160;(40% of the time) a single, firm, painless, non-itchy <a href="https://en.wikipedia.org/wiki/Skin_ulceration" class="mw-redirect" title="Skin ulceration">skin ulceration</a> with a clean base and sharp borders approximately 0.3–3.0&#160;cm in size.<sup id="cite_ref-Kent08_2-7" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup> The lesion may take on almost any form.<sup id="cite_ref-Pri2008_20-0" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> In the classic form, it evolves from a <a href="https://en.wikipedia.org/wiki/Macule" class="mw-redirect" title="Macule">macule</a> to a <a href="https://en.wikipedia.org/wiki/Papule" title="Papule">papule</a> and finally to an <a href="https://en.wikipedia.org/wiki/Erosion_(dermatopathology)#Primary_lesions" class="mw-redirect" title="Erosion (dermatopathology)">erosion</a> or <a href="https://en.wikipedia.org/wiki/Ulcer_(dermatology)" title="Ulcer (dermatology)">ulcer</a>.<sup id="cite_ref-Pri2008_20-1" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> Occasionally, multiple lesions may be present (~40%),<sup id="cite_ref-Kent08_2-8" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup> with multiple lesions being more common when coinfected with HIV.<sup id="cite_ref-Pri2008_20-2" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> Lesions may be painful or tender (30%), and they may occur in places other than the genitals (2–7%).<sup id="cite_ref-Pri2008_20-3" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> The most common location in women is the <a href="https://en.wikipedia.org/wiki/Cervix" title="Cervix">cervix</a> (44%), the <a href="https://en.wikipedia.org/wiki/Human_penis" title="Human penis">penis</a> in heterosexual men (99%), and <a href="https://en.wikipedia.org/wiki/Human_anus" title="Human anus">anally</a> and <a href="https://en.wikipedia.org/wiki/Rectal" class="mw-redirect" title="Rectal">rectally</a> in <a href="https://en.wikipedia.org/wiki/Men_who_have_sex_with_men" title="Men who have sex with men">men who have sex with men</a> (34%).<sup id="cite_ref-Pri2008_20-4" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> <a href="https://en.wikipedia.org/wiki/Lymphadenopathy" title="Lymphadenopathy">Lymph node enlargement</a> frequently&#160;(80%) occurs around the area of infection,<sup id="cite_ref-Kent08_2-9" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup> occurring seven to 10&#160;days after chancre formation.<sup id="cite_ref-Pri2008_20-5" class="reference"><a href="Syphilis#cite_note-Pri2008-20">&#91;20&#93;</a></sup> The <a href="https://en.wikipedia.org/wiki/Lesion" title="Lesion">lesion</a> may persist for three to six weeks if left untreated.<sup id="cite_ref-Kent08_2-10" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup>
 </p>
 <h3><span class="mw-headline" id="Secondary">Secondary</span></h3>
@@ -165,9 +269,14 @@
 <h3><span class="mw-headline" id="Vaccine">Vaccine</span></h3>
 <p>As of 2018<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Syphilis&amp;action=edit">&#91;update&#93;</a></sup>, there is no <a href="https://en.wikipedia.org/wiki/Vaccine" title="Vaccine">vaccine</a> effective for prevention.<sup id="cite_ref-ST10_14-3" class="reference"><a href="Syphilis#cite_note-ST10-14">&#91;14&#93;</a></sup> Several vaccines based on treponemal proteins reduce lesion development in an <a href="https://en.wikipedia.org/wiki/Animal_model" class="mw-redirect" title="Animal model">animal model</a> but research continues.<sup id="cite_ref-38" class="reference"><a href="Syphilis#cite_note-38">&#91;38&#93;</a></sup><sup id="cite_ref-39" class="reference"><a href="Syphilis#cite_note-39">&#91;39&#93;</a></sup>
 </p>
+<div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
+<ul><li>"Correct and consistent use of latex condoms can reduce the risk of syphilis .."</li></ul>
+
+</div>
+
 <h3><span class="mw-headline" id="Sex">Sex</span></h3>
-<p><a href="https://en.wikipedia.org/wiki/Condom" title="Condom">Condom</a> use reduces the likelihood of transmission during sex, but does not completely eliminate the risk.<sup id="cite_ref-40" class="reference"><a href="Syphilis#cite_note-40">&#91;40&#93;</a></sup> The <a href="https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention" title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</a> (CDC) states, "Correct and consistent use of latex condoms can reduce the risk of syphilis only when the infected area or site of potential exposure is protected.<sup id="cite_ref-41" class="reference"><a href="Syphilis#cite_note-41">&#91;41&#93;</a></sup> However, a syphilis sore outside of the area covered by a latex condom can still allow transmission, so caution should be exercised even when using a condom."<sup id="cite_ref-CDC_Fact_Sheet_42-0" class="reference"><a href="Syphilis#cite_note-CDC_Fact_Sheet-42">&#91;42&#93;</a></sup>
-</p><p><a href="https://en.wikipedia.org/wiki/Abstinence" title="Abstinence">Abstinence</a> from intimate physical contact with an infected person is effective at reducing the transmission of syphilis. The CDC states, "The surest way to avoid transmission of sexually transmitted diseases, including syphilis, is to abstain from sexual contact or to be in a long-term mutually <a href="https://en.wikipedia.org/wiki/Monogamous" class="mw-redirect" title="Monogamous">monogamous</a> relationship with a partner who has been tested and is known to be uninfected."<sup id="cite_ref-CDC_Fact_Sheet_42-1" class="reference"><a href="Syphilis#cite_note-CDC_Fact_Sheet-42">&#91;42&#93;</a></sup>
+<p><a href="https://en.wikipedia.org/wiki/Condom" title="Condom">Condom</a> use reduces the likelihood of transmission during sex, but does not completely eliminate the risk.<sup id="cite_ref-40" class="reference"><a href="Syphilis#cite_note-40">&#91;40&#93;</a></sup> The <a href="https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention" title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</a> (CDC) states, <!--CiteIt Note: Extra Characters in Quote: footnote --> "<q cite="https://read.citeit.net/mirror/www.cdc.gov/std/syphilis/STDFact-Syphilis-detailed.htm">Correct and consistent use of latex condoms can reduce the risk of syphilis only when the infected area or site of potential exposure is protected.<sup id="cite_ref-41" class="reference"><a href="Syphilis#cite_note-41">&#91;41&#93;</a></sup> However, a syphilis sore outside of the area covered by a latex condom can still allow transmission, so caution should be exercised even when using a condom.</q>"<sup id="cite_ref-CDC_Fact_Sheet_42-0" class="reference"><a href="Syphilis#cite_note-CDC_Fact_Sheet-42">&#91;42&#93;</a></sup>
+</p><p><a href="https://en.wikipedia.org/wiki/Abstinence" title="Abstinence">Abstinence</a> from intimate physical contact with an infected person is effective at reducing the transmission of syphilis. The CDC states, "<q cite="https://read.citeit.net/mirror/www.cdc.gov/std/syphilis/STDFact-Syphilis-detailed.htm">The surest way to avoid transmission of sexually transmitted diseases, including syphilis, is to abstain from sexual contact or to be in a long-term mutually <a href="https://en.wikipedia.org/wiki/Monogamous" class="mw-redirect" title="Monogamous">monogamous</a> relationship with a partner who has been tested and is known to be uninfected.</q>"<sup id="cite_ref-CDC_Fact_Sheet_42-1" class="reference"><a href="Syphilis#cite_note-CDC_Fact_Sheet-42">&#91;42&#93;</a></sup>
 </p>
 <h3><span class="mw-headline" id="Congenital_disease">Congenital disease</span></h3>
 <div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:Portrait_of_Mr._J._Kay,_afflicted_with_a_rodent_disease._Unknown_artist,_c._1820_CE._The_Wellcome_Collection,_London.jpg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg/220px-Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg" decoding="async" width="220" height="295" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg/330px-Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg/440px-Portrait_of_Mr._J._Kay%2C_afflicted_with_a_rodent_disease._Unknown_artist%2C_c._1820_CE._The_Wellcome_Collection%2C_London.jpg 2x" data-file-width="3235" data-file-height="4337" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Portrait_of_Mr._J._Kay,_afflicted_with_a_rodent_disease._Unknown_artist,_c._1820_CE._The_Wellcome_Collection,_London.jpg" class="internal" title="Enlarge"></a></div>Portrait of Mr. J. Kay, affected with what is now believed to have been congenital syphilis c. 1820<sup id="cite_ref-43" class="reference"><a href="Syphilis#cite_note-43">&#91;43&#93;</a></sup></div></div></div>
@@ -223,11 +332,20 @@
 </p><p>The 40-year study became a textbook example of poor <a href="https://en.wikipedia.org/wiki/Medical_ethics" title="Medical ethics">medical ethics</a> because researchers had knowingly withheld treatment with <a href="https://en.wikipedia.org/wiki/Penicillin" title="Penicillin">penicillin</a> and because the subjects had been misled concerning the purposes of the study. The revelation in 1972 of these study failures by a <a href="https://en.wikipedia.org/wiki/Whistleblower" title="Whistleblower">whistleblower</a>, <a href="https://en.wikipedia.org/wiki/Peter_Buxtun" title="Peter Buxtun">Peter Buxtun</a>, led to major changes in U.S. law and regulation on the protection of participants in clinical studies. Now studies require <a href="https://en.wikipedia.org/wiki/Informed_consent" title="Informed consent">informed consent</a>,<sup id="cite_ref-hhs.gov_98-0" class="reference"><a href="Syphilis#cite_note-hhs.gov-98">&#91;98&#93;</a></sup> communication of <a href="https://en.wikipedia.org/wiki/Diagnosis" title="Diagnosis">diagnosis</a>, and accurate reporting of test results.<sup id="cite_ref-99" class="reference"><a href="Syphilis#cite_note-99">&#91;99&#93;</a></sup>
 </p>
 <div class="thumb tright"><div class="thumbinner" style="width:301px;"><a href="https://en.wikipedia.org/wiki/File:De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis,_anoniem,_Museum_Plantin-Moretus,_PK_OPB_0186_007.jpg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg/299px-De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg" decoding="async" width="299" height="217" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg/449px-De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg/598px-De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis%2C_anoniem%2C_Museum_Plantin-Moretus%2C_PK_OPB_0186_007.jpg 2x" data-file-width="3508" data-file-height="2550" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:De_ontdekking_van_Guaiacum_als_middel_tegen_syfilis,_anoniem,_Museum_Plantin-Moretus,_PK_OPB_0186_007.jpg" class="internal" title="Enlarge"></a></div><i>Preparation and Use of Guayaco for Treating Syphilis</i>, after <a href="https://en.wikipedia.org/wiki/Stradanus" title="Stradanus">Stradanus</a>, 1590</div></div></div>
-<p>Similar experiments were carried out in <a href="https://en.wikipedia.org/wiki/Guatemala" title="Guatemala">Guatemala</a> from 1946 to 1948. It was done during the administration of American President <a href="https://en.wikipedia.org/wiki/Harry_S._Truman" title="Harry S. Truman">Harry S. Truman</a> and Guatemalan President <a href="https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Ar%C3%A9valo" title="Juan José Arévalo">Juan José Arévalo</a> with the cooperation of some Guatemalan health ministries and officials.<sup id="cite_ref-CDCFactScheet_100-0" class="reference"><a href="Syphilis#cite_note-CDCFactScheet-100">&#91;100&#93;</a></sup> Doctors infected soldiers, prostitutes, prisoners and <a href="https://en.wikipedia.org/wiki/Mental_patient" class="mw-redirect" title="Mental patient">mental patients</a> with syphilis and other <a href="https://en.wikipedia.org/wiki/Sexually_transmitted_diseases" class="mw-redirect" title="Sexually transmitted diseases">sexually transmitted diseases</a>, without the <a href="https://en.wikipedia.org/wiki/Informed_consent" title="Informed consent">informed consent</a> of the subjects, and treated most subjects with <a href="https://en.wikipedia.org/wiki/Antibiotic" title="Antibiotic">antibiotics</a>. The experiment resulted in at least 83 deaths.<sup id="cite_ref-BBC20110829_101-0" class="reference"><a href="Syphilis#cite_note-BBC20110829-101">&#91;101&#93;</a></sup><sup id="cite_ref-PHR_102-0" class="reference"><a href="Syphilis#cite_note-PHR-102">&#91;102&#93;</a></sup> In October 2010, the U.S. formally apologized to Guatemala for the ethical violations that took place. Secretary of State <a href="https://en.wikipedia.org/wiki/Hillary_Clinton" title="Hillary Clinton">Hillary Clinton</a> and Health and Human Services Secretary <a href="https://en.wikipedia.org/wiki/Kathleen_Sebelius" title="Kathleen Sebelius">Kathleen Sebelius</a> stated "Although these events occurred more than 64 years ago, we are outraged that such reprehensible research could have occurred under the guise of public health. We deeply regret that it happened, and we apologize to all the individuals who were affected by such abhorrent research practices."<sup id="cite_ref-NPRapology_103-0" class="reference"><a href="Syphilis#cite_note-NPRapology-103">&#91;103&#93;</a></sup> The experiments were led by physician <a href="https://en.wikipedia.org/wiki/John_Charles_Cutler" title="John Charles Cutler">John Charles Cutler</a> who also participated in the late stages of the Tuskegee syphilis experiment.<sup id="cite_ref-guardian_104-0" class="reference"><a href="Syphilis#cite_note-guardian-104">&#91;104&#93;</a></sup>
+<p>Similar experiments were carried out in <a href="https://en.wikipedia.org/wiki/Guatemala" title="Guatemala">Guatemala</a> from 1946 to 1948. It was done during the administration of American President <a href="https://en.wikipedia.org/wiki/Harry_S._Truman" title="Harry S. Truman">Harry S. Truman</a> and Guatemalan President <a href="https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Ar%C3%A9valo" title="Juan José Arévalo">Juan José Arévalo</a> with the cooperation of some Guatemalan health ministries and officials.<sup id="cite_ref-CDCFactScheet_100-0" class="reference"><a href="Syphilis#cite_note-CDCFactScheet-100">&#91;100&#93;</a></sup> Doctors infected soldiers, prostitutes, prisoners and <a href="https://en.wikipedia.org/wiki/Mental_patient" class="mw-redirect" title="Mental patient">mental patients</a> with syphilis and other <a href="https://en.wikipedia.org/wiki/Sexually_transmitted_diseases" class="mw-redirect" title="Sexually transmitted diseases">sexually transmitted diseases</a>, without the <a href="https://en.wikipedia.org/wiki/Informed_consent" title="Informed consent">informed consent</a> of the subjects, and treated most subjects with <a href="https://en.wikipedia.org/wiki/Antibiotic" title="Antibiotic">antibiotics</a>. The experiment resulted in at least 83 deaths.<sup id="cite_ref-BBC20110829_101-0" class="reference"><a href="Syphilis#cite_note-BBC20110829-101">&#91;101&#93;</a></sup><sup id="cite_ref-PHR_102-0" class="reference"><a href="Syphilis#cite_note-PHR-102">&#91;102&#93;</a></sup> In October 2010, the U.S. formally apologized to Guatemala for the ethical violations that took place. Secretary of State <a href="https://en.wikipedia.org/wiki/Hillary_Clinton" title="Hillary Clinton">Hillary Clinton</a> and Health and Human Services Secretary <a href="https://en.wikipedia.org/wiki/Kathleen_Sebelius" title="Kathleen Sebelius">Kathleen Sebelius</a> stated "<q cite="http://read.citeit.net/mirror/www.state.gov/secretary/rm/2010/10/148464.htm">Although these events occurred more than 64 years ago, we are outraged that such reprehensible research could have occurred under the guise of public health. We deeply regret that it happened, and we apologize to all the individuals who were affected by such abhorrent research practices.</q>"<sup id="cite_ref-NPRapology_103-0" class="reference"><a href="Syphilis#cite_note-NPRapology-103">&#91;103&#93;</a></sup> The experiments were led by physician <a href="https://en.wikipedia.org/wiki/John_Charles_Cutler" title="John Charles Cutler">John Charles Cutler</a> who also participated in the late stages of the Tuskegee syphilis experiment.<sup id="cite_ref-guardian_104-0" class="reference"><a href="Syphilis#cite_note-guardian-104">&#91;104&#93;</a></sup>
 </p>
 <h3><span class="mw-headline" id="Names">Names</span></h3>
 <p>First called <i>grande verole</i> or the "great pox" by the French. Other historical names have included "button scurvy", sibbens, frenga and dichuchwa, among others.<sup id="cite_ref-105" class="reference"><a href="Syphilis#cite_note-105">&#91;105&#93;</a></sup><sup id="cite_ref-106" class="reference"><a href="Syphilis#cite_note-106">&#91;106&#93;</a></sup>
 </p>
+
+<div class="highlight"><h2>View More about CiteIt.net</h2>
+<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> 
+</ul>
+<br />
+<ul>
+<li><a href="http://demo-sites.citeit.net/">More Contextual Citation Mockups &#8629;</a></li></ul>
+</div>
+
 <div style="clear:both;"></div>
 <h2><span class="mw-headline" id="References">References</span></h2>
 <div class="reflist" style="list-style-type: decimal;">
@@ -990,4 +1108,17 @@ additional terms may apply.  By using this site, you agree to the <a href="https
 <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.724","walltime":"2.037","ppvisitednodes":{"value":8905,"limit":1000000},"postexpandincludesize":{"value":394787,"limit":2097152},"templateargumentsize":{"value":4151,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":488268,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1640.371      1 -total"," 47.07%  772.203      1 Template:Reflist"," 21.48%  352.307     58 Template:Cite_journal"," 10.82%  177.411     26 Template:Cite_web","  8.21%  134.656      2 Template:Infobox","  6.24%  102.387     16 Template:Navbox","  5.69%   93.302      1 Template:Medical_condition_classification_and_resources","  5.18%   85.043     17 Template:Cite_book","  4.63%   76.012      1 Template:Pp","  4.11%   67.402      2 Template:Hlist"]},"scribunto":{"limitreport-timeusage":{"value":"0.823","limit":"10.000"},"limitreport-memusage":{"value":8534083,"limit":52428800}},"cachereport":{"origin":"mw2275","timestamp":"20200919130811","ttl":2592000,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Syphilis","url":"https:\/\/en.wikipedia.org\/wiki\/Syphilis","sameAs":"http:\/\/www.wikidata.org\/entity\/Q41083","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q41083","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-11-09T12:02:51Z","dateModified":"2020-09-18T11:44:17Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/29\/Treponema_pallidum.jpg","headline":"sexually transmitted infection"}</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":175,"wgHostname":"mw2274"});});</script>
+
+
+<!-- ################ Begin: CiteIt.net Dependencies ############# -->
+  <div id='citeit_container'><!-- CiteIt-quote-context.js injects data returned from lookup in this hidden div --></div>
+  <script>
+	// Call CiteIt.net plugin on all q-tags and blockquotes:
+	$( document ).ready(function() {
+		jQuery('q, blockquote').quoteContext();
+	});
+  </script>
+<!-- ############### End: CiteIt.net Dependencies ############## -->
+
+
 </body></html>
