@@ -110,6 +110,9 @@
 	  font-size: 125%;
 	}
 
+	span.lookfor_quote {
+	  background-color: #d6e8ec;
+	}
 
   </style>
 
@@ -154,7 +157,7 @@ Seven of the astronauts selected for the MOL program transferred to NASA as <a h
 </p>
 
 <div class="highlight">
-<h3>Scroll down to view the first contextual citation</h3>
+<h3>&darr; Scroll down to view the first contextual citation &darr;</h3>
 </div>
 
 
@@ -214,7 +217,7 @@ Seven of the astronauts selected for the MOL program transferred to NASA as <a h
 
 <div class="highlight">
 <h3>Click on grey-blue quote text for contextual citation: (popup)
-<ul><li>"manned orbital laboratory"</li></ul>
+<ul><li>Click on <span class="lookfor_quote">"manned orbital laboratory"</span> &darr;</li></ul>
 
 
 </h3>

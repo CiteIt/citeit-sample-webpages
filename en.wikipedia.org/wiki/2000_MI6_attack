@@ -109,6 +109,11 @@
 	  font-size: 125%;
 	}
 
+	span.lookfor_quote {
+	  background-color: #d6e8ec;
+	}
+
+
 
   </style>
 
@@ -315,7 +320,7 @@
 </p><p>Although London had been the targets of terrorist attacks before 2000, it had not been subjected to a <a href="https://en.wikipedia.org/wiki/Rocket_launcher" title="Rocket launcher">rocket launcher</a> attack; this was the first time a RPG-22 rocket launcher was seen and used in Great Britain. It was initially thought the Real IRA acquired the launchers from the <a href="https://en.wikipedia.org/wiki/Provisional_IRA" class="mw-redirect" title="Provisional IRA">Provisional IRA</a>'s arsenal, but later confirmed it was brought from the former <a href="https://en.wikipedia.org/wiki/Yugoslavia" title="Yugoslavia">Yugoslavia</a>.<sup id="cite_ref-independentmi6_2-0" class="reference"><a href="2000_MI6_attack#cite_note-independentmi6-2">&#91;2&#93;</a></sup> The "audacious" attack caused minimal damage due to the building's bullet-proof and bomb-proof structure, failing to penetrate the inner <a href="https://en.wikipedia.org/wiki/Cladding_(construction)" title="Cladding (construction)">cladding</a>.<sup id="cite_ref-telegraph_3-0" class="reference"><a href="2000_MI6_attack#cite_note-telegraph-3">&#91;3&#93;</a></sup>
 </p>
 
-<div class="highlight"><h3>Scroll down to view the first contextual citation.</h3></div>
+<div class="highlight"><h3>&darr; Scroll down to view the first contextual citation. &darr;</h3></div>
 
 
 <p>At the time of the attack, the constituency of <a href="https://en.wikipedia.org/wiki/South_Antrim_(UK_Parliament_constituency)" title="South Antrim (UK Parliament constituency)">South Antrim</a> was preparing for a <a href="https://en.wikipedia.org/wiki/2000_South_Antrim_by-election" title="2000 South Antrim by-election">by-election</a> to be held the following day; it was won by Democratic Unionist <a href="https://en.wikipedia.org/wiki/William_McCrea,_Baron_McCrea_of_Magherafelt_and_Cookstown" title="William McCrea, Baron McCrea of Magherafelt and Cookstown">William McCrea</a>, who defeated Ulster Unionist <a href="https://en.wikipedia.org/wiki/David_Burnside" title="David Burnside">David Burnside</a>.
@@ -342,7 +347,7 @@
 
 
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li>"audacious attack in a busy part of London .."</li></ul>
+<ul><li>Click on: <span class="lookfor_quote">"audacious attack in a busy part of London .."</span> &darr;</li></ul>
 
 </div>
 

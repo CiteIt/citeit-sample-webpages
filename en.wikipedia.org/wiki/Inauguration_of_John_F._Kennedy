@@ -120,6 +120,11 @@
 	  font-size: 175%;
 	}
 
+	span.lookfor_quote {
+	  background-color: #d6e8ec;
+	}
+
+
   </style>
 
 
@@ -225,7 +230,7 @@
   <li><a href="https://www.citeit.net/volunteer/">Volunteer</a></li>
 </ul>
 
-<div class="highlight">Scroll down to see first example quote:</div>
+<div class="highlight">&darr; Scroll down to see first example quote: &darr;</div>
 
 </div>
 
@@ -265,6 +270,9 @@
 <li class="toclevel-1 tocsection-16"><a href="Inauguration_of_John_F._Kennedy#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
 </ul>
 </div>
+<div class="highlight">
+<h3>&darr; Keep Scrolling down to view contextual citation. &darr;</h3>
+</div>
 
 <h2><span class="mw-headline" id="Sinatra_inaugural_ball">Sinatra inaugural ball</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Inauguration_of_John_F._Kennedy&amp;action=edit&amp;section=1" title="Edit section: Sinatra inaugural ball">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
 <div class="thumb tleft"><div class="thumbinner" style="width:252px;"><a href="https://en.wikipedia.org/wiki/File:John_F._Kennedy_Inaugural_Ball,_20_January_1961.jpg" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg/250px-John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg" decoding="async" width="250" height="197" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg/375px-John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg/500px-John_F._Kennedy_Inaugural_Ball%2C_20_January_1961.jpg 2x" data-file-width="2962" data-file-height="2337" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:John_F._Kennedy_Inaugural_Ball,_20_January_1961.jpg" class="internal" title="Enlarge"></a></div>President <a href="https://en.wikipedia.org/wiki/John_F._Kennedy" title="John F. Kennedy">John F. Kennedy</a> and First Lady <a href="https://en.wikipedia.org/wiki/Jacqueline_Kennedy" class="mw-redirect" title="Jacqueline Kennedy">Jacqueline Kennedy</a>, wearing a gown designed by Ethel Franken of <a href="https://en.wikipedia.org/wiki/Bergdorf_Goodman" title="Bergdorf Goodman">Bergdorf Goodman</a>, arrive at Sinatra's inaugural ball on the evening of Inauguration Day.</div></div></div>
@@ -278,7 +286,7 @@
 </p>
 
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li>"The happy relationship between the arts and politics which has characterized ..</li></ul>
+<ul><li>Click on: <span class="lookfor_quote">"The happy relationship between the arts and politics which has characterized ..</span> &darr;</li></ul>
 
 
 </div>
