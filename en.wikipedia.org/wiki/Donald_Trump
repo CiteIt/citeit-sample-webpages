@@ -132,6 +132,16 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
+
   </style>
 
 
@@ -361,7 +371,7 @@
 </p>
 
 <div class="highlight">
-<h4>&darr; Scroll down to view first popup contextual citation &darr;</h4>
+<h4>&darr; <a href="#start" class="underline">Scroll down</a> to view first popup contextual citation &darr;</h4>
 
 </div>
 
@@ -369,7 +379,7 @@
 </p><p>A <a href="https://en.wikipedia.org/wiki/Special_Counsel_investigation_(2017%E2%80%932019)" title="Special Counsel investigation (2017–2019)">special counsel investigation</a> led by <a href="https://en.wikipedia.org/wiki/Robert_Mueller" title="Robert Mueller">Robert Mueller</a> found that Trump and <a href="https://en.wikipedia.org/wiki/Donald_Trump_2016_presidential_campaign" title="Donald Trump 2016 presidential campaign">his campaign</a> welcomed and encouraged <a href="https://en.wikipedia.org/wiki/Russian_interference_in_the_2016_United_States_elections" title="Russian interference in the 2016 United States elections">Russian interference in the 2016 presidential election</a> under the belief that it would be politically advantageous, but did not find sufficient evidence to press charges of <a href="https://en.wikipedia.org/wiki/Conspiracy_(criminal)" title="Conspiracy (criminal)">criminal conspiracy</a> or coordination with Russia.<sup id="cite_ref-coordination_4-0" class="reference"><a href="Donald_Trump#cite_note-coordination-4">&#91;d&#93;</a></sup> Mueller also investigated Trump for <a href="https://en.wikipedia.org/wiki/Obstruction_of_justice" title="Obstruction of justice">obstruction of justice</a>, and <a href="https://en.wikipedia.org/wiki/Mueller_Report" class="mw-redirect" title="Mueller Report">his report</a> neither indicted nor exonerated Trump on that offense. After Trump <a href="https://en.wikipedia.org/wiki/Trump%E2%80%93Ukraine_scandal" title="Trump–Ukraine scandal">solicited Ukraine to investigate</a> his political rival <a href="https://en.wikipedia.org/wiki/Joe_Biden" title="Joe Biden">Joe Biden</a>, the House of Representatives <a href="https://en.wikipedia.org/wiki/Impeachment_of_Donald_Trump" title="Impeachment of Donald Trump">impeached him</a> in December 2019 for <a href="https://en.wikipedia.org/wiki/Abuse_of_power" title="Abuse of power">abuse of power</a> and <a href="https://en.wikipedia.org/wiki/Obstruction_of_Congress" class="mw-redirect" title="Obstruction of Congress">obstruction of Congress</a>. The Senate <a href="https://en.wikipedia.org/wiki/Impeachment_trial_of_Donald_Trump" title="Impeachment trial of Donald Trump">acquitted him</a> of both charges in February 2020.
 </p>
 <div class="highlight">
-<h4>&darr; (Scroll down two more Yellow Notes see first Contextual Popup) &darr;</h4>
+<h4>&darr; (<a href="#start" class="underline">Scroll down</a> two more Yellow Notes see first Contextual Popup) &darr;</h4>
 
 </div>
 <style data-mw-deduplicate="TemplateStyles:r886046785">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class="toclimit-3"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
@@ -546,7 +556,7 @@
 </div>
 <h2><span class="mw-headline" id="Personal_life">Personal life</span></h2>
 <div class="highlight">
-<h4>&darr; (Scroll down to next Yellow Note to see the first Contextual Popup) &darr;</h4>
+<h4>&darr; (<a href="#start" class="underline">Scroll down</a> to next Yellow Note to see the first Contextual Popup) &darr;</h4>
 </div>
 
 <h3><span class="mw-headline" id="Early_life">Early life</span></h3>
@@ -569,9 +579,9 @@ In 1964, he enrolled at <a href="https://en.wikipedia.org/wiki/Fordham_Universit
 <p>In 1977, Trump married <a href="https://en.wikipedia.org/wiki/Czechs" title="Czechs">Czech</a> model <a href="https://en.wikipedia.org/wiki/Ivana_Zeln%C3%AD%C4%8Dkov%C3%A1" class="mw-redirect" title="Ivana Zelníčková">Ivana Zelníčková</a>.<sup id="cite_ref-FOOTNOTEBlair2015300_27-0" class="reference"><a href="Donald_Trump#cite_note-FOOTNOTEBlair2015300-27">&#91;23&#93;</a></sup> They have three children, <a href="https://en.wikipedia.org/wiki/Donald_Trump_Jr." title="Donald Trump Jr.">Donald Jr.</a> (born 1977), <a href="https://en.wikipedia.org/wiki/Ivanka_Trump" title="Ivanka Trump">Ivanka</a> (born 1981), and <a href="https://en.wikipedia.org/wiki/Eric_Trump" title="Eric Trump">Eric</a> (born 1984), and ten grandchildren.<sup id="cite_ref-28" class="reference"><a href="Donald_Trump#cite_note-28">&#91;24&#93;</a></sup> Ivana became a naturalized United States citizen in 1988.<sup id="cite_ref-29" class="reference"><a href="Donald_Trump#cite_note-29">&#91;25&#93;</a></sup> The couple divorced in 1992, following Trump's affair with actress <a href="https://en.wikipedia.org/wiki/Marla_Maples" title="Marla Maples">Marla Maples</a>.<sup id="cite_ref-30" class="reference"><a href="Donald_Trump#cite_note-30">&#91;26&#93;</a></sup> Maples and Trump married in 1993<sup id="cite_ref-31" class="reference"><a href="Donald_Trump#cite_note-31">&#91;27&#93;</a></sup> and had one daughter, <a href="https://en.wikipedia.org/wiki/Tiffany_Trump" title="Tiffany Trump">Tiffany</a> (born 1993).<sup id="cite_ref-Slate07202016_32-0" class="reference"><a href="Donald_Trump#cite_note-Slate07202016-32">&#91;28&#93;</a></sup> They were divorced in 1999,<sup id="cite_ref-33" class="reference"><a href="Donald_Trump#cite_note-33">&#91;29&#93;</a></sup> and Tiffany was raised by Marla in California.<sup id="cite_ref-NYT-20161002_34-0" class="reference"><a href="Donald_Trump#cite_note-NYT-20161002-34">&#91;30&#93;</a></sup> In 2005, Trump married <a href="https://en.wikipedia.org/wiki/Slovenia" title="Slovenia">Slovenian</a> model <a href="https://en.wikipedia.org/wiki/Melania_Trump" title="Melania Trump">Melania Knauss</a>.<sup id="cite_ref-Post52208_35-0" class="reference"><a href="Donald_Trump#cite_note-Post52208-35">&#91;31&#93;</a></sup> They have one son, <a href="https://en.wikipedia.org/wiki/Barron_Trump" class="mw-redirect" title="Barron Trump">Barron</a> (born 2006).<sup id="cite_ref-36" class="reference"><a href="Donald_Trump#cite_note-36">&#91;32&#93;</a></sup> Melania gained U.S. citizenship in 2006.<sup id="cite_ref-37" class="reference"><a href="Donald_Trump#cite_note-37">&#91;33&#93;</a></sup>
 </p>
 
-<!-- CiteIt Note -->
+<!-- CiteIt Note --><a name="start" />
 <div class="highlight"><h3>&darr; Click on grey-blue text below to view Contextual Popup &darr;</h3>
-<ul><li><strong>Click on</strong>: "<span class="lookfor_quote">is not an active member of Marble</span>" &#8595;</li></ul>
+<ul><li><strong>Click <span class="double_underline">below</span> on</strong>: "<span class="lookfor_quote">is not an active member of Marble</span>" &#8595;</li></ul>
 
 
 </div>
