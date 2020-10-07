@@ -143,6 +143,15 @@ div.image_illustration {
 	line-height: 1;
 }
 
+.alanna {
+	color: orange;
+}
+
+h3 {
+	font-size: 18px;
+
+}
+
 
 /******** Custom Button ***********/
 .btn {
@@ -328,6 +337,123 @@ a.try-demo {
 	}
 	
 }		</style>
+
+
+<script>
+$(document).ready(function(){
+  $("ol.in_progress").hide();
+
+
+  $("button.toggle").click(function(){
+    $("ol.in_progress").toggle();
+  });
+});
+</script>
+
+
+  <!-- ############################### Begin: CiteIt Dependencies ##################################
+      - jQuery: manipulate Dom: 
+      - query api.CiteIt.net
+      - download JSON to hidden citeit_container div
+      - add arrows and popup links to q tags and blockquotes
+
+  ------ 1) jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"   
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 2) jQuery Migrate: Used to migrate jQuery: https://github.com/jquery/jquery-migrate -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" 
+	integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" 
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 3) Generate q-tag Popup -->
+  <script   
+	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   
+	crossorigin="anonymous">
+  </script>
+
+  <!-- 4) Calculate JSON Hash values using sha256 library --->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/forge-sha256/build/forge-sha256.min.js' defer></script>
+
+
+  <!-- 5) jsVideoUrlParser: Detect Domain: Determine if an Embed code can be use: YouTube, Vimeo, Soundcloud -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jsVideoUrlParser/dist/jsVideoUrlParser.min.js' defer></script>
+
+  <!--CSS Styles: CiteIt & JQuery Popup Window -->
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
+
+  <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
+  <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
+
+  <!--Change q-tag style to match Wikipedia -->
+  <style>
+	q {
+    		quotes: "" "" "" "";
+	}
+
+    q, q a, span.q {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 0px dotted;
+	background-color: #d6e8ec;
+	
+    }
+    q a:visited {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: none;
+    }
+
+    q a:hover {
+	color: #333;
+	background-color: #d6e8ec;
+	text-decoration: #0645ad underline;
+    }
+
+    div.quote_arrows a,  a.citeit_source_domain {
+	color: #0ebfe9;
+	/* background-color: #e4ebf5;  */
+    }
+
+	/* wiki markup */
+	div#citeit_video {
+	  background-color: #eee;
+	  padding-bottom: 30px;
+	}
+
+	div#citeit_vide h2 {
+	  font-size: 125%;
+	}
+
+	div.highlight {
+	  background-color: yellow;
+	  font-size: 135%;
+	  margin-bottom: 10px;
+	}
+
+	blockquote.quote_text:before, blockquote.quote_text:after {
+	  font-size: 175%;
+	}
+
+	h4.notice {
+	  margin-top:-5px;
+	  color: #999;
+	}
+
+	span.lookfor_quote {
+	  background-color: #d6e8ec;
+	}
+
+  </style>
+
+
+  <!-- ############################### End: CiteIt.net Dependencies #######################################-->
+
 		</head>
 <body class="page-template-default page page-id-15 header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-hidden"><div class="site-container">
 
@@ -348,28 +474,104 @@ a.try-demo {
 <div class="entry-content"><h2>Mockups of Sites:</h2>
 <p><b>Mockups of what sites would look like</b> if they were using CiteIt.net:</p>
 
+<h2>Wikipedia</h2>
 	<ul>
-		<li><a href="https://www.wikipedia.org/">Wikipedia</a>:  (<a href="https://meta.wikimedia.org/wiki/User:Timlangeman/sandbox">proposal for Wikipedia</a>)
+		<li><b>Annotated</b> <a href="https://www.wikipedia.org/">Wikipedia</a> articles:  (<a href="https://meta.wikimedia.org/wiki/User:Timlangeman/sandbox">proposal for Wikipedia</a>)<br /><br />
+
+
+			<h3>People/Groups</h3>
 			<ol>
-				<li><a href="https://demo-sites.citeit.net/en.wikipedia.org/wiki/Inauguration_of_John_F._Kennedy">Inauguration of John F. Kennedy</a> </li>
+
+
 				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Ruth_Bader_Ginsburg">Ruth Bader Ginsburg</a> </li>
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Shadows_Over_Shanghai">Shadows Over Shanghai</a> ** Sources not available</li>			
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Donald_Trump">Donald Trump</a></li>
+
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hillary_Clinton">Hillary Clinton</a> (Tim)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Barack_Obama">Barak Obama</a>**</li-->
+				<!--li><a href="http://demo-sites.citeit.net/https://en.wikipedia.org/wiki/George_W._Bush">George W. Bush</a>**</li-->
+
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Bill_Clinton">Bill Clinton</a> <span class="alanna">(Alanna: 2nd)</span></li-->
+
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Mary,_mother_of_Jesus">Mary, mother of Jesus</a>**</li-->								
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/W._E._B._Du_Bois">W. E. B. Du Bois</a> </li-->
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Marjory_Stoneman_Douglas">Marjory Stoneman Douglas</a> </li-->
+
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Phan_%C4%90%C3%ACnh_Ph%C3%B9ng">Phan_%C4%90%C3%ACnh_Ph%C3%B9ng</a></li-->
+
 			</ol>
 
-			In Progress:
+			<h3>Literature</h3>
 			<ol>
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hamlet">Hamlet</a>**</li>	
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Pride_and_Prejudice">Pride and Prejudice</a>**</li>	
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hollywood_Women%27s_Political_Committee">Hollywood_Women's Political Committee</a>**</li>
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/First_Battle_of_Newbury">First Battle of Newbury</a>**</li>
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Manned_Orbiting_Laboratory">Manned Orbiting Laboratory</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Marie_Wittman">Marie Wittman</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Mary,_mother_of_Jesus">Mary, mother of Jesus</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Irish_War_of_Independence">Irish War of Independence</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Petrozavodsk_phenomenon">Petrozavodsk_phenomenon</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/2000_MI6_attack">2000_MI6_attack</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Syphilis">Syphilis</a>**</li>			
-				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/National_Gallery">National Gallery</a>**</li>	
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Pride_and_Prejudice">Pride and Prejudice</a></li>	
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hamlet">Hamlet</a></li>	
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book">The_Negro_Motorist_Green_Book</a></li-->
+
+				<!--li><a href="http://demo-sites.citeit.net/fr.wikipedia.org/wiki/Les_Mis%C3%A9rables">Les Misérables</a> ** (French uses « » for quotation marks)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha">Don Quixote</a>. <span class="alanna">(Alanna)</span> ** (Spanish uses « » for quotation marks) </li-->
+			</ol>
+
+
+			<h3>History</h3>
+			<ol>
+				<li><a href="https://demo-sites.citeit.net/en.wikipedia.org/wiki/Inauguration_of_John_F._Kennedy">Inauguration of John F. Kennedy</a> </li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/2000_MI6_attack">2000_MI6_attack</a></li>
+
+				<!--li><a href="http://demo-sites.citeit.net/fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise">Révolution française</a> **(French uses « » for quotation marks)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Historia_de_Guatemala">Historia de Guatemala</a> <span class="alanna">(Alanna)</span> ** (Spanish uses « » for quotation marks) </li-->
+				<!--li><a href="https://en.wikipedia.org/wiki/Norte_Chico_civilization	">Norte Chico civilization</a></li-->
+				<!--li><a href="https://en.wikipedia.org/wiki/Political_history_of_medieval_Karnataka">Political history of medieval Karnataka</a></li-->
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hollywood_Women%27s_Political_Committee">Hollywood_Women's Political Committee</a> (Will) **</li-->
+
+			</ol>
+			
+			<h3>Science</h3>
+			<ol>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Manned_Orbiting_Laboratory">Manned Orbiting Laboratory</a></li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Syphilis">Syphilis</a></li>			
+				<!--li><a href="http://demo-sites.citeit.net/https://en.wikipedia.org/wiki/Autism">Autism</a> (Will) ** </li-->			
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Dementia_with_Lewy_bodies">Dementia_with_Lewy_bodies</a> **</li-->			
+			</ol>
+
+
+
+			<!--h4>Language Diversity</h4-->
+			<ol>
+				
+				<!--li><a href="http://demo-sites.citeit.net/de.wikipedia.org/wiki/Sigmund_Freud">Sigmund_Freud</a> ** (German uses „ “ for quotation marks )</li-->
+				<!--li><a href="http://demo-sites.citeit.net/de.wikipedia.org/wiki/J%C3%BCrgen_Habermas">Jürgen Habermas</a> ** (German uses „ “ for quotation marks )</li-->
+				<!--li><a href="http://demo-sites.citeit.net/de.wikipedia.org/wiki/Martin_Luther">Martin Luther</a> ** (German uses „ “ for quotation marks )</li-->
+				<!--li><a href="http://demo-sites.citeit.net/it.wikipedia.org/wiki/Dietrich_Buxtehude">Dietrich Buxtehude</a> ** (Italian uses « » for quotation marks)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/it.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da Vinci</a> ** (Italian uses « » for quotation marks)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/ru.wikipedia.org/wiki/%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%A4%D1%91%D0%B4%D0%BE%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87">Достоевский, Фёдор Михайлович</a> ** (Russian uses « » for quotation marks: Dostoyevsky)</li-->
+				<!--li><a href="http://demo-sites.citeit.net/ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9,_%D0%9B%D0%B5%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87">Толстой, Лев Николаевич</a> ** (Russian uses « » for quotation marks: Tolstoy)</li-->
+
+			</ol>
+
+		<!--
+			<h3>Things</h3>
+			<ol>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Louisiana_Purchase_Sesquicentennial_half_dollar">Louisiana_Purchase_Sesquicentennial_half_dollar</a></li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/The_Million_Dollar_Homepage">The_Million_Dollar_Homepage</a> (Will) **</li>			
+				<li><a href="http://demo-sites.citeit.net/https://en.wikipedia.org/wiki/Borscht">Borscht</a> ** </li>	
+			</ol>
+		-->
+
+			<h4>In Progress:</h4> (not yet annotated with citations)<br />
+
+			<button class="toggle">Show/Hide "in-progress"</button><br /><br />
+
+			<ol class="in_progress">
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hollywood_Women%27s_Political_Committee">Hollywood_Women's Political Committee</a> Will **</li>
+
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Irish_War_of_Independence">Irish War of Independence</a> <span class="alanna">(Alanna: 1st)</span></li>			
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Petrozavodsk_phenomenon">Petrozavodsk_phenomenon</a> (Will)**</li>
+
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/National_Gallery">National Gallery</a> (Will)**</li>	
+				<!--li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Mary,_mother_of_Jesus">Mary, mother of Jesus</a>**</li-->								
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Bill_Clinton">Bill Clinton</a> <span class="alanna">(Alanna: 2nd)</span></li>
+				<li><a href="http://demo-sites.citeit.net/https://en.wikipedia.org/wiki/George_W._Bush">George W. Bush</a>**</li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Barack_Obama">Barak Obama</a>**</li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Hillary_Clinton">Hillary Clinton</a> (Tim)</li>
 
 				<li><a href="http://demo-sites.citeit.net/it.wikipedia.org/wiki/Dietrich_Buxtehude">Dietrich Buxtehude</a> ** (Italian uses « » for quotation marks)</li>
 				<li><a href="http://demo-sites.citeit.net/it.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da Vinci</a> ** (Italian uses « » for quotation marks)</li>
@@ -381,65 +583,139 @@ a.try-demo {
 				<li><a href="http://demo-sites.citeit.net/fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise">Révolution française</a> **(French uses « » for quotation marks)</li>
 				<li><a href="http://demo-sites.citeit.net/fr.wikipedia.org/wiki/Les_Mis%C3%A9rables">Les Misérables</a> ** (French uses « » for quotation marks)</li>
 
-				<li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Historia_de_Guatemala">Historia de Guatemala</a> ** (Spanish uses « » for quotation marks) </li>
-				<li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha">Don Quixote</a>. ** (Spanish uses « » for quotation marks) </li>
+				<li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Historia_de_Guatemala">Historia de Guatemala</a> <span class="alanna">(Alanna)</span> ** (Spanish uses « » for quotation marks) </li>
+				<li><a href="http://demo-sites.citeit.net/es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha">Don Quixote</a>. <span class="alanna">(Alanna)</span> ** (Spanish uses « » for quotation marks) </li>
 
 				<li><a href="http://demo-sites.citeit.net/ru.wikipedia.org/wiki/%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%A4%D1%91%D0%B4%D0%BE%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87">Достоевский, Фёдор Михайлович</a> ** (Russian uses « » for quotation marks: Dostoyevsky)</li>
 				<li><a href="http://demo-sites.citeit.net/ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9,_%D0%9B%D0%B5%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87">Толстой, Лев Николаевич</a> ** (Russian uses « » for quotation marks: Tolstoy)</li>
-	
+
 			</ol>
-		</li>
 
+
+				<!--  More Articles to Consider:
+				History
+
+					https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)
+
+					https://en.wikipedia.org/wiki/Peasants%27_Revolt
+					https://en.wikipedia.org/wiki/Stonewall_riots
+					https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens
+					https://en.wikipedia.org/wiki/Anti-tobacco_movement_in_Nazi_Germany
+
+					https://en.wikipedia.org/wiki/Death_of_Cleopatra
+					https://en.wikipedia.org/wiki/Mayan_languages
+					https://en.wikipedia.org/wiki/Ethiopian_historiography (short quotes)
+					https://en.wikipedia.org/wiki/Hoysala_Empire (short quotes)
+
+				Science
+					https://en.wikipedia.org/wiki/Fauna_of_Scotland
+					http	s://en.wikipedia.org/wiki/Phallus_indusiatus
+					https://en.wikipedia.org/wiki/Drosera_regia
+					https://en.wikipedia.org/wiki/Velociraptor
+					https://en.wikipedia.org/wiki/American_paddlefish
+					https://en.wikipedia.org/wiki/Grasshopper
+
+
+
+
+				People/Groups
+					https://en.wikipedia.org/wiki/Jomo_Kenyatta
+					https://en.wikipedia.org/wiki/Marjory_Stoneman_Douglas
+					https://en.wikipedia.org/wiki/Ohio_Wesleyan_University
+					https://en.wikipedia.org/wiki/Mary_Anning
+					https://en.wikipedia.org/wiki/Zhou_Tong_(archer)			
+					https://en.wikipedia.org/wiki/Alice_Ayres
+					https://en.wikipedia.org/wiki/Abu_Nidal
+					https://en.wikipedia.org/wiki/Phan_%C4%90%C3%ACnh_Ph%C3%B9ng
+
+
+				Literature
+
+				Languages
+					https://en.wikipedia.org/wiki/Nahuatl
+
+
+				Places
+
+	
+					https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ch%C3%A1nh_Thi
+					https://en.wikipedia.org/wiki/Pain_fitzJohn
+
+
+			Articles without electronic sources:
+			<ol>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/First_Battle_of_Newbury">First Battle of Newbury</a>**</li>
+				<li><a href="http://demo-sites.citeit.net/en.wikipedia.org/wiki/Shadows_Over_Shanghai">Shadows Over Shanghai</a> ** Sources not available</li>			
+				<li> 	https://en.wikipedia.org/wiki/Noble_gas (short quotes) </li>
+
+			</ol>
+
+			-->
+
+			</ol>
+
+
+		</li>
+	</ul>
+
+	<a name="contacts"></a>
+
+	<h2>My article on Hypertext Pioneer Ted Nelson</h2>
+	<ul>
 		<li><a href="https://www.openpolitics.com/">Openpolitics</a> Tim Langeman, Creator of CiteIt
-		  <ul><li><a href="https://www.openpolitics.com/articles/ted-nelson-philosophy-of-hypertext.html">Ted Nelson’s “Philosophy of Hypertext”</a></li></ul>
+		  <ul><li><a href="https://www.openpolitics.com/articles/ted-nelson-philosophy-of-hypertext.html">Ted Nelson’s “Philosophy of Hypertext”</a>: writing this article inspired the creation of CiteIt</li></ul>
 		</li>
 
+	</ul>
 
+
+	<h2>Journalists &amp; Academics</h2>
+	<ol>
 
 		<li><a href="https://en.wikipedia.org/wiki/Steve_Randy_Waldman">Steve Randy Waldman</a> Economics Blog: Interfluidity
 		  <ul><li><a href="https://demo-sites.citeit.net/www.interfluidity.com/v2/7097.html">Three levels of controversy over MMT</a></li></ul>
 		</li>
 
 		<li><a href="https://thewayofimprovement.wordpress.com/">John Fea </a>, Messiah College
-		  <ul><li><a href="https://demo-sites.citeit.net/thewayofimprovement.com/2020/06/19/the-unsettling-similarities-between-a-1964-george-wallace-letter-and-the-rhetoric-of-donald-trump/">The unsettling similarities between a 1964 George Wallace letter and the rhetoric of Donald Trump</a> ** </li></ul>
+		  <ul><li><a href="https://demo-sites.citeit.net/thewayofimprovement.com/2020/06/19/the-unsettling-similarities-between-a-1964-george-wallace-letter-and-the-rhetoric-of-donald-trump/">The unsettling similarities between a 1964 George Wallace letter and the rhetoric of Donald Trump</a></li></ul>
 		</li>
 
+		<li><a href="https://www.ianmilligan.ca/">Ian Milligan</a>, Digital History, University of Waterloo
+		  <ul>
+			<li><a href="https://demo-sites.citeit.net/www.ianmilligan.ca/post/summers-review/">Review Essay featuring History in the Age of Abundance in the American Archivist</a><br /></li>
+			<li><a href="http://demo-sites.citeit.net/www.ianmilligan.ca/post/archives-unleashed-and-archive-it/">New Project: Integrating Archives Unleashed Cloud with Archive-It</a></li>
+		  </ul>
+		</li>
 
+		<li><a href="https://www.openpolitics.com/links/bruce-bartlett-the-truth-matters/">Bruce Bartlet</a> New York Times, The Fiscal Times,  The Guardian
+		  <ul><li><a href="http://demo-sites.citeit.net/www.theguardian.com/commentisfree/2017/jun/01/donald-trump-incompetence-white-house-staff-intervention">Donald Trump's incompetence is a problem. His staff should intervene</a></li></ul>
 
+		</li>
 
+		<li><a href="https://www.theatlantic.com/author/emma-green/">Emma Green</a>, The Atlantic
+		  <ul><li><a href="https://demo-sites.citeit.net/www.theatlantic.com/politics/archive/2020/08/kamala-harris-women-feminism/615439/">The Anointment of Kamala Harris</a>**<br /></li></ul>
+		</li>
 
-	</ul>
+	</ol>
 
-	<br /><br />
 
 
 	<h3>In-Progress: Mockups</h3>
 	<ol>
-		<li><a href="https://www.ianmilligan.ca/">Ian Milligan</a>, University of Waterloo
-		  <ul><li><a href="https://demo-sites.citeit.net/www.ianmilligan.ca/post/summers-review/">Review Essay featuring History in the Age of Abundance in the American Archivist</a><br /></li></ul>
-		</li>
-		
 
 		<li><a href="http://www.ethanzuckerman.com/blog/">Ethan Zuckerman</a>, Amherst
 		  <ul><li><a href="https://demo-sites.citeit.net/www.ethanzuckerman.com/blog/2012/03/28/the-passion-of-mike-daisey-journalism-storytelling-and-the-ethics-of-attention/"
 				>The Passion of Mike Daisey: Journalism, Storytelling and the Ethics of Attention</a></li></ul>
 		</li>
 
-		<li><a href="https://www.openpolitics.com/links/bruce-bartlett-the-truth-matters/">Bruce Bartlet</a>, New York Times, <a href="https://archive.nytimes.com/www.nytimes.com/ref/business/economy/bruce-bartlett-bio.html">Economix Blog</a>,  The Fiscal Times
-		  <ul><li><a href="http://demo-sites.citeit.net/economix.blogs.nytimes.com/2014/02/04/how-l-b-j-pushed-through-kennedys-tax-cut/">How L.B.J. Pushed Through Kennedy’s Tax Cut</a> (annoted but not displayed)</li></ul>
-		</li>
 
 		<li><a href="https://demo.citeit.net/2020/06/11/what-is-the-future-of-judaism-in-a-culture-that-strips-away-context/">Tyler Cowen</a>, George Mason University
-		  <ul><li><a href="https://marginalrevolution.com/marginalrevolution/2020/08/the-new-two-hour-supply-chain-robust-saliva-test.html">The new quicker, cheaper, supply chain robust saliva test</a></li></ul>
 		</li>
 
 
 		<li><a href="https://www.citeit.net/2020/08/21/dr-lee-giles-contextual-citations/">Lee Giles</a>, Penn State University</li>
 
 
-		<li><a href="https://www.theatlantic.com/author/emma-green/">Emma Green</a>, The Atlantic
-		  <ul><li><a href="https://demo-sites.citeit.net/www.theatlantic.com/politics/archive/2020/08/kamala-harris-women-feminism/615439/">The Anointment of Kamala Harris</a>**<br /></li></ul>
-		</li>
 
 		<li><a href="https://demo-sites.citeit.net/www.nationalreview.com/2018/04/nick-kristof-argues-with-straw-men-about-guns-straw-men-win/">David French</a>, The Dispatch, Substack</li>
 
@@ -524,10 +800,34 @@ a.try-demo {
 		<li><a href="https://www.newyorker.com/news/daily-comment/obama-harris-biden-and-an-unconventional-democratic-convention">David Remnick</a>, New Yorker, Editor</li>
 
 
-		<li>Tom Yoder Neufeld</li>
-		<li>Steve Nolt</li>
+		<li><a href="https://uwaterloo.ca/grebel/people-profiles/thomas-r-yoder-neufeld">Tom Yoder Neufeld</a>, Conrad Grebel College (retired)</li>
+		<li><a href="http://facultysites.etown.edu/nolts/">Steve Nolt</a>, Elizabethtown College</li>
 
 	</ol>
+
+
+	<h3>John Fea Contacts:</h3>
+	<ol>
+		<li>Chris Gehrz (Pietist Schoolman)</li>
+		<li>Ed Ayers (New American History)</li>
+		<li>J.L. Bell (Boston 1775)</li>
+		<li>The Junto Blog (not sure who is running it these days)</li>
+		<li>Jonathan Rowe (American Creation)</li>
+		<li>Ben Railton (American Studies Blog) Legal History Blog (not sure who is in charge these days)</li>
+		<li>Lincoln Mullen (Digital historian at George Mason University)</li>
+		<li>Sharon Leon (Michigan State digital historian)</li>
+		<li>colleague David Pettegrew runs Messiah's Digital Harrisburg site</li>
+	</ol>
+
+	<h4>Digital History</h4>
+	<ul>
+		<li><a href="https://rrchnm.org/">George Mason's Rosensweig Center</a> is the gold standard. (<a href="https://rrchnm.org/author/lincoln-mullen/">Lincoln</a> and <a href="https://rrchnm.org/author/abigail-mullen/">Abby Mullen</a>; <a href="https://rrchnm.org/author/john-turner/">John Turner</a>)</li>
+		<li><a href="https://history.unl.edu/william-thomas-iii">William G. Thomas</a> (University of Nebraska);</li>
+		<li><a href="https://www.edwardayers.com/">Ed Ayers</a> (University of Richmond); and the <a href="https://thatcamp.org/">THATCamp</a>? crowd.  <!-- (They are the gatekeepers. If they like your app they will promote it.) -->
+			<li><a href="http://www.vcdh.virginia.edu/PastsFutures.html">The Pasts and Futures of Digital History</a></li>
+			<li><a href="https://er.educause.edu/articles/2013/8/does-digital-scholarship-have-a-future">Does Digital Scholarship Have a Future?</a></li>
+		</li>
+	</ul>
 
 
     <br /><br /><br /><br />
