@@ -113,6 +113,16 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
+
 
 
   </style>
@@ -347,7 +357,7 @@
 
 
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li>Click on: <span class="lookfor_quote">"audacious attack in a busy part of London .."</span> &darr;</li></ul>
+<ul><li>Click <span class="double_underline">below</span> on: <span class="lookfor_quote">"audacious attack in a busy part of London .."</span> &darr;</li></ul>
 
 </div>
 

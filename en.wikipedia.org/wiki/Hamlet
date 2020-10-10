@@ -124,6 +124,15 @@ RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
 
   </style>
 
@@ -172,7 +181,7 @@ It is Shakespeare's longest play with 30,557 words. Set in <a href="https://en.w
 </p><p><i>Hamlet</i> is considered among the most powerful and influential works of world literature, with a story capable of "seemingly endless retelling and adaptation by others".<sup id="cite_ref-FOOTNOTEThompsonTaylor2006a74_1-0" class="reference"><a href="Hamlet#cite_note-FOOTNOTEThompsonTaylor2006a74-1">&#91;1&#93;</a></sup> It was one of Shakespeare's most popular works during his lifetime<sup id="cite_ref-FOOTNOTETaylor200218_2-0" class="reference"><a href="Hamlet#cite_note-FOOTNOTETaylor200218-2">&#91;2&#93;</a></sup> and still ranks among his most performed, topping the performance list of the <a href="https://en.wikipedia.org/wiki/Royal_Shakespeare_Company" title="Royal Shakespeare Company">Royal Shakespeare Company</a> and its predecessors in <a href="https://en.wikipedia.org/wiki/Stratford-upon-Avon" title="Stratford-upon-Avon">Stratford-upon-Avon</a> since 1879.<sup id="cite_ref-FOOTNOTECrystalCrystal200566_3-0" class="reference"><a href="Hamlet#cite_note-FOOTNOTECrystalCrystal200566-3">&#91;3&#93;</a></sup> It has inspired many other writers—from <a href="https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe" title="Johann Wolfgang von Goethe">Johann Wolfgang von Goethe</a> and <a href="https://en.wikipedia.org/wiki/Charles_Dickens" title="Charles Dickens">Charles Dickens</a> to <a href="https://en.wikipedia.org/wiki/James_Joyce" title="James Joyce">James Joyce</a> and <a href="https://en.wikipedia.org/wiki/Iris_Murdoch" title="Iris Murdoch">Iris Murdoch</a>—and has been described as "the world's most filmed story after <i><a href="https://en.wikipedia.org/wiki/Cinderella" title="Cinderella">Cinderella</a></i>".<sup id="cite_ref-FOOTNOTEThompsonTaylor2006a17_4-0" class="reference"><a href="Hamlet#cite_note-FOOTNOTEThompsonTaylor2006a17-4">&#91;4&#93;</a></sup>
 </p><p>The story of Shakespeare's <i>Hamlet</i> was derived from the legend of <a href="https://en.wikipedia.org/wiki/Amleth" title="Amleth">Amleth</a>, preserved by 13th-century chronicler <a href="https://en.wikipedia.org/wiki/Saxo_Grammaticus" title="Saxo Grammaticus">Saxo Grammaticus</a> in his <i><a href="https://en.wikipedia.org/wiki/Gesta_Danorum" title="Gesta Danorum">Gesta Danorum</a></i>, as subsequently retold by the 16th-century scholar <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_de_Belleforest" title="François de Belleforest">François de Belleforest</a>. Shakespeare may also have drawn on an earlier <a href="https://en.wikipedia.org/wiki/Elizabethan_era" title="Elizabethan era">Elizabethan</a> play known today as the <i><a href="https://en.wikipedia.org/wiki/Ur-Hamlet" title="Ur-Hamlet">Ur-Hamlet</a></i>, though some scholars believe Shakespeare wrote the <i>Ur-Hamlet</i>, later revising it to create the version of <i>Hamlet</i> that exists today. He almost certainly wrote his version of the title role for his fellow actor, <a href="https://en.wikipedia.org/wiki/Richard_Burbage" title="Richard Burbage">Richard Burbage</a>, the leading tragedian of Shakespeare's time. In the 400 years since its inception, the role has been performed by numerous highly acclaimed actors in each successive century.
 
-<div class="highlight">&darr; Scroll down to see first example quote: &darr;</div>
+<div class="highlight"><h4>&darr; <a href="#start">Scroll down</a> to see first example quote: &darr;</h4></div>
 
 </div>
 
@@ -248,7 +257,7 @@ It is Shakespeare's longest play with 30,557 words. Set in <a href="https://en.w
 </ul>
 </div>
 
-<div class="highlight">&darr; Scroll down to see first example quote: &darr;</div>
+<div class="highlight"><h4>&darr; <a href="#start">Scroll down</a> to see first example quote: &darr;</h4></div>
 
 </div>
 
@@ -282,8 +291,9 @@ It is Shakespeare's longest play with 30,557 words. Set in <a href="https://en.w
 </p>
 <div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:File-Hamlet,_Prince_of_Demark_Act_I_Scene_IV.png" class="image"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png/220px-File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png" decoding="async" width="220" height="177" class="thumbimage" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png/330px-File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png/440px-File-Hamlet%2C_Prince_of_Demark_Act_I_Scene_IV.png 2x" data-file-width="3389" data-file-height="2732" /></a>  <div class="thumbcaption"><div class="magnify"><a href="https://en.wikipedia.org/wiki/File:File-Hamlet,_Prince_of_Demark_Act_I_Scene_IV.png" class="internal" title="Enlarge"></a></div>Horatio, Hamlet, and the ghost (Artist: <a href="https://en.wikipedia.org/wiki/Henry_Fuseli" title="Henry Fuseli">Henry Fuseli</a>, 1789)<sup id="cite_ref-5" class="reference"><a href="Hamlet#cite_note-5">&#91;5&#93;</a></sup></div></div></div>
 
+<a name="start"></a>
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li>Click on: <span class="lookfor_quote">"to thine ownself be true"</span> &darr;</li></ul>
+<ul><li>Click <span class="double_underline">below</span> on: <span class="lookfor_quote">"to thine ownself be true"</span> &darr;</li></ul>
 
 
 </div>

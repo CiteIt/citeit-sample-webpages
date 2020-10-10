@@ -112,6 +112,16 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
+
   </style>
 
 
@@ -156,7 +166,7 @@
 </p><p>In 2015, about 45.4&#160;million people were infected with syphilis,<sup id="cite_ref-GBD2015Pre_4-1" class="reference"><a href="Syphilis#cite_note-GBD2015Pre-4">&#91;4&#93;</a></sup> with six million new cases.<sup id="cite_ref-New2015_8-0" class="reference"><a href="Syphilis#cite_note-New2015-8">&#91;8&#93;</a></sup> During 2015, it caused about 107,000 deaths, down from 202,000 in 1990.<sup id="cite_ref-GBD2015Death_5-1" class="reference"><a href="Syphilis#cite_note-GBD2015Death-5">&#91;5&#93;</a></sup><sup id="cite_ref-Loz2012_9-0" class="reference"><a href="Syphilis#cite_note-Loz2012-9">&#91;9&#93;</a></sup> After decreasing dramatically with the availability of penicillin in the 1940s, rates of infection have increased since the turn of the millennium in many countries, often in combination with <a href="https://en.wikipedia.org/wiki/HIV" title="HIV">human immunodeficiency virus</a> (HIV).<sup id="cite_ref-Kent08_2-4" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup><sup id="cite_ref-Music08_10-0" class="reference"><a href="Syphilis#cite_note-Music08-10">&#91;10&#93;</a></sup> This is believed to be partly due to increased <a href="https://en.wikipedia.org/wiki/Promiscuity" title="Promiscuity">promiscuity</a>, <a href="https://en.wikipedia.org/wiki/Prostitution" title="Prostitution">prostitution</a>, decreasing use of condoms, and unsafe sexual practices among <a href="https://en.wikipedia.org/wiki/Men_who_have_sex_with_men" title="Men who have sex with men">men who have sex with men</a>.<sup id="cite_ref-Coffin2010_11-0" class="reference"><a href="Syphilis#cite_note-Coffin2010-11">&#91;11&#93;</a></sup><sup id="cite_ref-Gao2009_12-0" class="reference"><a href="Syphilis#cite_note-Gao2009-12">&#91;12&#93;</a></sup><sup id="cite_ref-Karp2009_13-0" class="reference"><a href="Syphilis#cite_note-Karp2009-13">&#91;13&#93;</a></sup>
 </p>
 <div class="highlight">
-<h3>&darr; Scroll down to view the first contextual citation &darr;</h3>
+<h3>&darr; <a href="#start" class="underline">Scroll down</a> to view the first contextual citation &darr;</h3>
 </div>
 
 <style data-mw-deduplicate="TemplateStyles:r886046785">.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output .toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output .toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 ul{display:none}</style><div class="toclimit-3"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
@@ -216,7 +226,7 @@
 <p>Syphilis can <a href="https://en.wikipedia.org/wiki/Presentation_(medical)" title="Presentation (medical)">present</a> in one of four different stages: primary, secondary, latent, and tertiary,<sup id="cite_ref-Kent08_2-5" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup> and may also occur <a href="https://en.wikipedia.org/wiki/Congenital" class="mw-redirect" title="Congenital">congenitally</a>.<sup id="cite_ref-ST10_14-0" class="reference"><a href="Syphilis#cite_note-ST10-14">&#91;14&#93;</a></sup> It was referred to as "the great imitator" by <a href="https://en.wikipedia.org/wiki/Sir_William_Osler" class="mw-redirect" title="Sir William Osler">Sir William Osler</a> due to its varied presentations.<sup id="cite_ref-Kent08_2-6" class="reference"><a href="Syphilis#cite_note-Kent08-2">&#91;2&#93;</a></sup><sup id="cite_ref-TUS00_15-0" class="reference"><a href="Syphilis#cite_note-TUS00-15">&#91;15&#93;</a></sup><sup id="cite_ref-16" class="reference"><a href="Syphilis#cite_note-16">&#91;16&#93;</a></sup>
 </p>
 <div class="highlight">
-<h3>Keep Scrolling down to view first example quote.</h3>
+<h3><a href="#start" class="underline">Keep Scrolling down</a> to view first example quote.</h3>
 
 </div>
 
@@ -243,7 +253,7 @@
 </p>
 
 <div class="highlight">
-<h3>&darr; Keep Scrolling down to view the first contextual citation &darr;</h3>
+<h3>&darr; <a href="#start" class="underline">Keep Scrolling down</a> to view the first contextual citation &darr;</h3>
 </div>
 
 <h3><span class="mw-headline" id="Congenital">Congenital</span></h3>
@@ -262,7 +272,7 @@
 </p>
 
 <div class="highlight">
-<h3>&darr; Keep Scrolling down to view the first contextual citation &darr;</h3>
+<h3>&darr; <a href="#start" class="underline">Keep Scrolling down</a> to view the first contextual citation &darr;</h3>
 </div>
 
 <h2><span class="mw-headline" id="Diagnosis">Diagnosis</span></h2>
@@ -282,8 +292,10 @@
 <h3><span class="mw-headline" id="Vaccine">Vaccine</span></h3>
 <p>As of 2018<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Syphilis&amp;action=edit">&#91;update&#93;</a></sup>, there is no <a href="https://en.wikipedia.org/wiki/Vaccine" title="Vaccine">vaccine</a> effective for prevention.<sup id="cite_ref-ST10_14-3" class="reference"><a href="Syphilis#cite_note-ST10-14">&#91;14&#93;</a></sup> Several vaccines based on treponemal proteins reduce lesion development in an <a href="https://en.wikipedia.org/wiki/Animal_model" class="mw-redirect" title="Animal model">animal model</a> but research continues.<sup id="cite_ref-38" class="reference"><a href="Syphilis#cite_note-38">&#91;38&#93;</a></sup><sup id="cite_ref-39" class="reference"><a href="Syphilis#cite_note-39">&#91;39&#93;</a></sup>
 </p>
+
+<a name="start"></a>
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li><span class="lookfor_quote">"Correct and consistent use of latex condoms can reduce the risk of syphilis ..</span>" &darr;</li></ul>
+<ul><li>Click <span class="double_underline">below</span> on: <span class="lookfor_quote">"Correct and consistent use of latex condoms can reduce the risk of syphilis ..</span>" &darr;</li></ul>
 
 </div>
 

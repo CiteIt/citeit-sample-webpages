@@ -129,6 +129,17 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
+
+
   </style>
 
 
@@ -204,7 +215,7 @@
 </div>
 
 <div class="highlight">
-<h3>&#8595; Scroll down to view Contextual Citations &#8595;</h3>
+<h3>&#8595;  <a href="#start" class="underline">Scroll down</a> to view Contextual Citations &#8595;</h3>
 </div>
 
 
@@ -227,9 +238,9 @@
 </p><p>Mr. Bingley and Mr. Darcy return to Netherfield. Bingley proposes to Jane, who accepts. Lady Catherine, having heard rumours that Elizabeth intends to marry Mr. Darcy, visits Elizabeth and demands she promise never to accept Mr. Darcy's proposal. Elizabeth refuses and the outraged Lady Catherine leaves. Darcy, heartened by his aunt's indignant relaying of Elizabeth's response, again proposes to her and is accepted. Elizabeth has difficulty in convincing her father that she is marrying for love, not position and wealth, but Mr. Bennet is finally convinced. Mrs. Bennet is exceedingly happy to learn of her daughter's match to Mr. Darcy and quickly changes her opinion of him. The novel concludes with an overview of the marriages of the three daughters and the great satisfaction of both parents at the fine, happy matches made by Jane and Elizabeth.
 </p>
 
-<!-- CiteIt Note -->
+<!-- CiteIt Note --><a name="start"></a>
 <div class="highlight"><h3>&darr; Click on grey-blue text below to view Contextual Popup &darr;</h3>
-<ul><li><strong>Click on</strong>: "<span class="lookfor_quote">poor nerves</span>" &#8595;</li></ul>
+<ul><li><strong>Click <span class="double_underline">below</span> on</strong>: "<span class="lookfor_quote">poor nerves</span>" &#8595;</li></ul>
 
 
 </div>

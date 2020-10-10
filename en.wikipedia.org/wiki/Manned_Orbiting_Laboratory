@@ -114,6 +114,16 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
+
   </style>
 
 
@@ -157,7 +167,7 @@ Seven of the astronauts selected for the MOL program transferred to NASA as <a h
 </p>
 
 <div class="highlight">
-<h3>&darr; Scroll down to view the first contextual citation &darr;</h3>
+<h3>&darr; <a href="#start">Scroll down</a> to view the first contextual citation &darr;</h3>
 </div>
 
 
@@ -215,9 +225,10 @@ Seven of the astronauts selected for the MOL program transferred to NASA as <a h
 </p><p>One benefit of the <a href="https://en.wikipedia.org/wiki/Sputnik_crisis" title="Sputnik crisis">Sputnik crisis</a> to American space policy was that no government protested Sputnik's overflying their territory, thereby tacitly acknowledging the legality of satellites. While there was a big difference between the innocuous Sputnik and a spy satellite, it made it all that much harder for the Soviets to object to one.<sup id="cite_ref-FOOTNOTEDivine199311–12_7-0" class="reference"><a href="Manned_Orbiting_Laboratory#cite_note-FOOTNOTEDivine199311–12-7">&#91;7&#93;</a></sup> In February 1958, <a href="https://en.wikipedia.org/wiki/President_of_the_United_States" title="President of the United States">President</a> <a href="https://en.wikipedia.org/wiki/Dwight_D._Eisenhower" title="Dwight D. Eisenhower">Dwight D. Eisenhower</a> ordered the USAF to proceed as quickly as possible with Discover (also known as Corona) as a joint <a href="https://en.wikipedia.org/wiki/Central_Intelligence_Agency" title="Central Intelligence Agency">Central Intelligence Agency</a> (CIA)-USAF interim project.<sup id="cite_ref-FOOTNOTEWheeldon199833_8-0" class="reference"><a href="Manned_Orbiting_Laboratory#cite_note-FOOTNOTEWheeldon199833-8">&#91;8&#93;</a></sup><sup id="cite_ref-FOOTNOTEDay199849_9-0" class="reference"><a href="Manned_Orbiting_Laboratory#cite_note-FOOTNOTEDay199849-9">&#91;9&#93;</a></sup>
 </p>
 
+<a name="start"></a>
 <div class="highlight">
 <h3>Click on grey-blue quote text for contextual citation: (popup)
-<ul><li>Click on <span class="lookfor_quote">"manned orbital laboratory"</span> &darr;</li></ul>
+<ul><li>Click <span class="double_underline">below</span> on <span class="lookfor_quote">"manned orbital laboratory"</span> &darr;</li></ul>
 
 
 </h3>

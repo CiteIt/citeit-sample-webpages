@@ -124,6 +124,15 @@
 	  background-color: #d6e8ec;
 	}
 
+	a.underline {
+		text-decoration: underline;
+	}
+
+	.double_underline {
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-style: italic;
+	}
 
   </style>
 
@@ -230,8 +239,8 @@
   <li><a href="https://www.citeit.net/volunteer/">Volunteer</a></li>
 </ul>
 
-<div class="highlight">&darr; Scroll down to see first example quote: &darr;</div>
-
+<div class="highlight">
+  <h4>&darr; <a href="#start" class="underline">Scroll down</a> to view first popup contextual citation &darr;</h4>
 </div>
 
 <!--End: CiteIt.net Video -->
@@ -271,7 +280,7 @@
 </ul>
 </div>
 <div class="highlight">
-<h3>&darr; Keep Scrolling down to view contextual citation. &darr;</h3>
+<h3>&darr; Keep <a href="#start" class="underline">Scrolling down</a> to view contextual citation. &darr;</h3>
 </div>
 
 <h2><span class="mw-headline" id="Sinatra_inaugural_ball">Sinatra inaugural ball</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Inauguration_of_John_F._Kennedy&amp;action=edit&amp;section=1" title="Edit section: Sinatra inaugural ball">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -285,8 +294,9 @@
 </p><p><a href="https://en.wikipedia.org/wiki/Sammy_Davis,_Jr." class="mw-redirect" title="Sammy Davis, Jr.">Sammy Davis, Jr.</a>, a long-time friend of Sinatra, supporter of the Democratic Party, and member of the <a href="https://en.wikipedia.org/wiki/Rat_Pack" title="Rat Pack">Rat Pack</a>, was asked by John F. Kennedy not to attend the gala at the behest of his father <a href="https://en.wikipedia.org/wiki/Joseph_Kennedy" class="mw-redirect" title="Joseph Kennedy">Joseph</a>,<sup id="cite_ref-purdum201102_3-3" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-purdum201102-3">&#91;3&#93;</a></sup> fearing that his <a href="https://en.wikipedia.org/wiki/Interracial_marriage" title="Interracial marriage">interracial marriage</a> to <a href="https://en.wikipedia.org/wiki/Sweden" title="Sweden">Swedish</a> actress <a href="https://en.wikipedia.org/wiki/May_Britt" title="May Britt">May Britt</a> was too controversial for the time and occasion, much to Sammy's and Sinatra's dismay.<sup id="cite_ref-purdum201102_3-4" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-purdum201102-3">&#91;3&#93;</a></sup><sup id="cite_ref-PopHistory_Gala_4-5" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-PopHistory_Gala-4">&#91;4&#93;</a></sup> Davis had already postponed his wedding to Britt until after the election, also at the request of the Kennedy campaign via Sinatra.<sup id="cite_ref-5" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-5">&#91;5&#93;</a></sup> Davis eventually switched his support to the Republican Party and Richard Nixon in the early 1970s. Harry Belafonte expressed sadness at the controversy, stating "It was the ambassador, [but] we didn't know that until after. Sammy not being there was a loss."<sup id="cite_ref-purdum201102_3-5" class="reference"><a href="Inauguration_of_John_F._Kennedy#cite_note-purdum201102-3">&#91;3&#93;</a></sup>
 </p>
 
+<a name="start"></a>
 <div class="highlight"><h3>Click on grey-blue quote text for contextual citation: (popup)</h3>
-<ul><li>Click on: <span class="lookfor_quote">"The happy relationship between the arts and politics which has characterized ..</span> &darr;</li></ul>
+<ul><li><strong>Click <span class="double_underline">below</span> on</strong>: <span class="lookfor_quote">"The happy relationship between the arts and politics which has characterized ..</span> &darr;</li></ul>
 
 
 </div>
