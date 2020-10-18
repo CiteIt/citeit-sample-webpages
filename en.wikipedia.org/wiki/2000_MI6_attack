@@ -66,67 +66,11 @@
   <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/lib/jquery-ui-1.12.1/jquery-ui.min.css' type='text/css' media='all' />
   <link rel='stylesheet' href='https://www.citeit.net/sample-code/css/quote-context-style.css' type='text/css' media='all' />
 
+  <link rel='stylesheet' href='https://www.citeit.net/wp-content/plugins/CiteIt.net/css/citeit-wikipedia.css' type='text/css' media='all' />
+
+
   <!-- 6) Main CiteIt Javascript Code: Download JSON & Create Popup windows and Expanding Arrows  -->
   <script src='https://www.citeit.net/wp-content/plugins/CiteIt.net/js/versions/0.4/CiteIt-quote-context.js'> </script>
-
-  <!--Change q-tag style to match Wikipedia -->
-  <style>
-	q {
-    		quotes: "" "" "" "";
-	}
-
-    q, q a, span.q {
-	color: #333;
-	text-decoration: none;
-	border-bottom: 0px dotted;
-	background-color: #d6e8ec;
-	
-    }
-    q a:visited {
-	color: #333;
-	background-color: #d6e8ec;
-	text-decoration: none;
-    }
-
-    q a:hover {
-	color: #333;
-	background-color: #d6e8ec;
-	text-decoration: #0645ad underline;
-    }
-
-    div.quote_arrows a,  a.citeit_source_domain {
-	color: #0ebfe9;
-	/* background-color: #e4ebf5;  */
-    }
-
-	/* wiki markup */
-	div#citeit_video {
-	  background-color: #eee;
-	  padding-bottom: 30px;
-	}
-
-	div#citeit_vide h2 {
-	  font-size: 125%;
-	}
-
-	span.lookfor_quote {
-	  background-color: #d6e8ec;
-	}
-
-	a.underline {
-		text-decoration: underline;
-	}
-
-	.double_underline {
-		text-decoration-line: underline;
-		text-decoration-style: double;
-		font-style: italic;
-	}
-
-
-
-  </style>
-
 
   <!-- ############################### End: CiteIt.net Dependencies #######################################-->
 
@@ -146,7 +90,7 @@
 
 <div class="highlight">
 <h3>This is a Mockup of what Wikipedia would look like if it used <a href="https://www.citeit.net/">CiteIt.net</a></h3>
-<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> | <a href="https://demo-sites.citeit.net/">Back to Mockups &#8629;</a>
+<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://www.citeit.net/wikipedia/">Wikipedia</a> |  <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> | <a href="https://demo-sites.citeit.net/">Back to Mockups &#8629;</a>
 </div>
 
 		<div id="jump-to-nav"></div>
@@ -376,7 +320,7 @@
 
 
 <div class="highlight"><h2>View More about CiteIt.net</h2>
-<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> 
+<ul><li><a href="https://www.citeit.net/">CiteIt.net home</a> | <a href="https://www.citeit.net/wordpress-plugin/">WordPress Plugin</a> | <a href="https://www.citeit.net/wikipedia/">Wikipedia</a> | <a href="https://demo.citeit.net/">Demo</a> | <a href="https://www.citeit.net/code/">Code</a> | <a href="https://www.citeit.net/volunteer/">Volunteer</a> | <a href="https://www.citeit.net/blog/">Blog</a> | <a href="https://www.citeit.net/about/">About</a> 
 </ul>
 <br />
 <ul>
